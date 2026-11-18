@@ -35,7 +35,7 @@
 
 Studies of industrial and open-source game development report little automated testing~[1--4].
 They survey developers or check whether a project contains tests at all; they do not show which kinds of bugs are fixed together with tests.
-The OSSGameBench paper~[5] counts issues by label but does not connect bug reports to the code that fixed them.
+The OSSGameBench dataset~[5] links issues, pull requests and commits, but its paper counts issues by label and does not analyze which code changes fixed which bug reports.
 This report asks: \textbf{how does the presence of test changes in bug fixes differ by bug symptom and by game type, and what testing strategies follow?}
 
 \begin{itemize}
@@ -54,10 +54,10 @@ Section~\ref{sec:results} reports \emph{observations}, Section~\ref{sec:discussi
 %======================================================================
 \section{Related Work}
 
-Murphy-Hill et al.~[1] surveyed developers at Microsoft and found much less test automation in games, giving reasons: the UI is hard to separate from the game, the state space is large, correctness is decided by designers and is subjective, games are non-deterministic, tests become obsolete when the design changes, and human testers are cheap.
-Pascarella et al.~[2] found no test cases in 30 open-source games; Politowski et al.~[3] report almost exclusive reliance on manual play-testing; Canella et al.~[4] found automated tests in 36 of 491 open-source games.
+Murphy-Hill et al.~[1] interviewed 14 developers and surveyed 364 Microsoft engineers; the interviewees reported much less test automation in games and gave reasons: the UI is hard to separate from the game, the state space is large, correct behavior is hard to state and is decided by designers, games are non-deterministic, tests become obsolete when the design changes, and human testers are cheap.
+Pascarella et al.~[2] compared 30 open-source games with 30 other projects, remarked that the games contained no test cases, and found that game developers report more difficulty with automated unit tests; a literature review by Politowski et al.~[3] reports almost exclusive reliance on manual play-testing; Canella et al.~[4] found automated tests in 36 of 491 open-source games.
 These studies work with surveys or whole projects.
-Truelove et al.~[6] classified bug fixes in update notes of commercial games, and~[5] reports label frequencies, but neither connects bug types to tests.
+Truelove et al.~[6] classified bug fixes in update notes of popular Steam games, and~[5] reports label frequencies, but neither relates bug types to the tests that accompany fixes.
 Automatic game oracles are studied for graphical glitches~[7] and regression test selection~[8]; the proposals here judge game state instead of pixels.
 
 %======================================================================
@@ -406,7 +406,7 @@ Table~\ref{tab:reasons} compares the reasons practitioners gave in~[1] with the 
 Reason (expected pattern) & Observed\\
 \midrule
 UI is hard to separate (UI bugs tested less) & Consistent: 4.5\% vs.\ 8.6\%; within projects OR 0.58\\
-Correctness is subjective (visual, audio tested least) & Consistent: 3.7\%, 0.8\%; within projects OR 0.59, 0.12\\
+Correct behavior is hard to state (visual, audio tested least) & Consistent: 3.7\%, 0.8\%; within projects OR 0.59, 0.12\\
 Non-determinism (real-time games tested less) & Consistent in direction (3.3\% vs.\ 8.8\%); not conclusive\\
 Tests become obsolete (many changes only adapt tests) & Weak: 10 of 30 only adapt tests to changed code\\
 Human testers are cheap & Not measurable here\\
@@ -504,14 +504,14 @@ These observations match practitioners' reasons for avoiding test automation and
 \section*{References}
 \small
 \begin{enumerate}[label={[\arabic*]},leftmargin=2.2em,itemsep=1pt]
-\item E. Murphy-Hill, T. Zimmermann, and N. Nagappan. Cowboys, Ankle Sprains, and Keepers of Quality: How Is Video Game Development Different from Software Development? In \emph{Proc.\ ICSE 2014}.
-\item L. Pascarella, F. Palomba, M. Di Penta, and A. Bacchelli. How Is Video Game Development Different from Software Development in Open Source? In \emph{Proc.\ MSR 2018}.
-\item C. Politowski, F. Petrillo, and Y.-G. Gu\'eh\'eneuc. A Survey of Video Game Testing. 2021. arXiv:2103.06431.
-\item H. M. Canella, Y. Duarte, C. Politowski, V. Durelli, and A. T. Endo. Characterizing Open-Source Video Games from a Software Engineering Perspective. In \emph{Proc.\ GAS '26}. doi:10.1145/3786171.3788385.
-\item F. Marsad and N. Weeraddana. OSSGameBench: A Large-Scale Dataset of Development Activities in Open-Source Video Games. In \emph{Proc.\ MSR '26}, 620--624. doi:10.1145/3793302.3793313.
-\item A. Truelove, E. Santana de Almeida, and I. Ahmed. We'll Fix It in Post: What Do Bug Fixes in Video Game Update Notes Tell Us? 2021. arXiv:2103.03997.
-\item K. Chen et al. GLIB: Towards Automated Test Oracle for Graphically-Rich Applications. In \emph{Proc.\ ESEC/FSE 2021}. arXiv:2106.10507.
-\item J. Yu, Y. Wu, et al. GameRTS: A Regression Testing Framework for Video Games. In \emph{Proc.\ ICSE 2023}. doi:10.1109/ICSE48619.2023.00122.
+\item E. Murphy-Hill, T. Zimmermann, and N. Nagappan. Cowboys, Ankle Sprains, and Keepers of Quality: How Is Video Game Development Different from Software Development? In \emph{Proc.\ 36th Int.\ Conf.\ on Software Engineering (ICSE 2014)}, 1--11. doi:10.1145/2568225.2568226.
+\item L. Pascarella, F. Palomba, M. Di Penta, and A. Bacchelli. How Is Video Game Development Different from Software Development in Open Source? In \emph{Proc.\ 15th Int.\ Conf.\ on Mining Software Repositories (MSR 2018)}, 392--402. doi:10.1145/3196398.3196418.
+\item C. Politowski, F. Petrillo, and Y.-G. Gu\'eh\'eneuc. A Survey of Video Game Testing. In \emph{Proc.\ 2021 IEEE/ACM Int.\ Conf.\ on Automation of Software Test (AST 2021)}, 90--99. doi:10.1109/AST52587.2021.00018.
+\item H. M. Canella, Y. Duarte, C. Politowski, V. Durelli, and A. T. Endo. Characterizing Open-Source Video Games from a Software Engineering Perspective. In \emph{Proc.\ 10th Int.\ Workshop on Games and Software Engineering (GAS '26)}, 1--8. doi:10.1145/3786171.3788385.
+\item F. Marsad and N. Weeraddana. OSSGameBench: A Large-Scale Dataset of Development Activities in Open-Source Video Games. In \emph{Proc.\ 23rd Int.\ Conf.\ on Mining Software Repositories (MSR '26)}, 620--624. doi:10.1145/3793302.3793313.
+\item A. Truelove, E. Santana de Almeida, and I. Ahmed. We'll Fix It in Post: What Do Bug Fixes in Video Game Update Notes Tell Us? In \emph{Proc.\ 43rd Int.\ Conf.\ on Software Engineering (ICSE 2021)}, 736--747. doi:10.1109/ICSE43902.2021.00073.
+\item K. Chen, Y. Li, Y. Chen, C. Fan, Z. Hu, and W. Yang. GLIB: Towards Automated Test Oracle for Graphically-Rich Applications. In \emph{Proc.\ ESEC/FSE 2021}, 1093--1104. doi:10.1145/3468264.3468586.
+\item J. Yu, Y. Wu, X. Xie, W. Le, L. Ma, Y. Chen, J. Hu, and F. Zhang. GameRTS: A Regression Testing Framework for Video Games. In \emph{Proc.\ 45th Int.\ Conf.\ on Software Engineering (ICSE 2023)}, 1393--1404. doi:10.1109/ICSE48619.2023.00122.
 \end{enumerate}
 \normalsize
 

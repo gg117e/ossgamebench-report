@@ -34,7 +34,7 @@
 
 産業界とオープンソースのゲーム開発では自動テストが少ないと報告されている~[1--4]。
 これらの研究は開発者への調査や、プロジェクトにテストがあるかどうかを調べたもので、どの種類のバグがテストとともに修正されるかは示していない。
-OSSGameBench の論文~[5] はラベルごとに Issue を数えているが、バグ報告とそれを直したコードを結び付けてはいない。
+OSSGameBench のデータセット~[5] は Issue、プルリクエスト、コミットを結び付けているが、論文はラベルごとに Issue を数えるだけで、どのコードの変更がどのバグ報告を直したかは分析していない。
 本レポートの問いは、\textbf{バグ修正にテストの変更が伴うかは、バグの症状とゲームの種類によってどう違うか。そこからどんなテスト戦略が導けるか} である。
 
 \begin{itemize}
@@ -53,10 +53,10 @@ OSSGameBench の論文~[5] はラベルごとに Issue を数えているが、�
 %======================================================================
 \section{関連研究}
 
-Murphy-Hill ら~[1] は Microsoft の開発者を調査し、ゲームではテストの自動化がずっと少ないことを示した。理由として、UI をゲームから切り離しにくい、状態空間が大きい、正しさはデザイナーが決め主観的である、ゲームは非決定的である、設計が変わるとテストが古くなる、人手のテスターが安い、を挙げている。
-Pascarella ら~[2] はオープンソースのゲーム 30 件にテストケースを見つけられず、Politowski ら~[3] は手動のプレイテストにほぼ頼っていると報告し、Canella ら~[4] はオープンソースのゲーム 491 件のうち 36 件に自動テストを見つけた。
+Murphy-Hill ら~[1] は開発者 14 人へのインタビューと Microsoft の技術者 364 人への調査を行った。インタビューでは、ゲームではテストの自動化がずっと少ないことが語られ、理由として、UI をゲームから切り離しにくい、状態空間が大きい、正しい振る舞いを述べにくくデザイナーが決める、ゲームは非決定的である、設計が変わるとテストが古くなる、人手のテスターが安い、が挙げられた。
+Pascarella ら~[2] はオープンソースのゲーム 30 件とそれ以外の 30 件を比べ、ゲームにはテストケースがなかったと述べ、ゲームの開発者は自動の単体テストに難しさを感じていると報告した。Politowski ら~[3] は文献の調査から、手動のプレイテストにほぼ頼っていると報告し、Canella ら~[4] はオープンソースのゲーム 491 件のうち 36 件に自動テストを見つけた。
 これらは調査かプロジェクト全体を単位とした研究である。
-Truelove ら~[6] は商用ゲームの更新情報にあるバグ修正を分類し、[5] はラベルの頻度を報告しているが、どちらもバグの種類とテストを結び付けていない。
+Truelove ら~[6] は Steam の人気ゲームの更新情報にあるバグ修正を分類し、[5] はラベルの頻度を報告しているが、どちらもバグの種類と修正に伴うテストを関係付けていない。
 ゲームの自動オラクルは、描画の不具合の検出~[7] や回帰テストの選択~[8] として研究されている。本レポートの提案は、画素ではなくゲームの状態で判定する。
 
 %======================================================================
@@ -405,7 +405,7 @@ terasology\#5039 & ツール & 2 つのライフサイクルを持つテスト�
 理由（予想されるパターン） & 観察\\
 \midrule
 UI を切り離しにくい（UI のバグはテストが少ない） & 整合する：4.5\% 対 8.6\%、プロジェクト内 OR 0.58\\
-正しさが主観的（描画と音声のテストが最も少ない） & 整合する：3.7\%、0.8\%、プロジェクト内 OR 0.59、0.12\\
+正しい振る舞いを述べにくい（描画と音声のテストが最も少ない） & 整合する：3.7\%、0.8\%、プロジェクト内 OR 0.59、0.12\\
 非決定性（リアルタイムのゲームはテストが少ない） & 向きは整合する（3.3\% 対 8.8\%）。決定的ではない\\
 テストが古くなる（テストを合わせるだけの変更が多い） & 弱い：30 件中 10 件がテストを変更後のコードに合わせるだけ\\
 人手のテスターが安い & ここでは測れない\\
@@ -503,14 +503,14 @@ S5 イベントと状態 & 音声、描画のバグ & 期待されるイベン�
 \section*{参考文献}
 \small
 \begin{enumerate}[label={[\arabic*]},leftmargin=2.2em,itemsep=1pt]
-\item E. Murphy-Hill, T. Zimmermann, and N. Nagappan. Cowboys, Ankle Sprains, and Keepers of Quality: How Is Video Game Development Different from Software Development? In \emph{Proc.\ ICSE 2014}.
-\item L. Pascarella, F. Palomba, M. Di Penta, and A. Bacchelli. How Is Video Game Development Different from Software Development in Open Source? In \emph{Proc.\ MSR 2018}.
-\item C. Politowski, F. Petrillo, and Y.-G. Gu\'eh\'eneuc. A Survey of Video Game Testing. 2021. arXiv:2103.06431.
-\item H. M. Canella, Y. Duarte, C. Politowski, V. Durelli, and A. T. Endo. Characterizing Open-Source Video Games from a Software Engineering Perspective. In \emph{Proc.\ GAS '26}. doi:10.1145/3786171.3788385.
-\item F. Marsad and N. Weeraddana. OSSGameBench: A Large-Scale Dataset of Development Activities in Open-Source Video Games. In \emph{Proc.\ MSR '26}, 620--624. doi:10.1145/3793302.3793313.
-\item A. Truelove, E. Santana de Almeida, and I. Ahmed. We'll Fix It in Post: What Do Bug Fixes in Video Game Update Notes Tell Us? 2021. arXiv:2103.03997.
-\item K. Chen et al. GLIB: Towards Automated Test Oracle for Graphically-Rich Applications. In \emph{Proc.\ ESEC/FSE 2021}. arXiv:2106.10507.
-\item J. Yu, Y. Wu, et al. GameRTS: A Regression Testing Framework for Video Games. In \emph{Proc.\ ICSE 2023}. doi:10.1109/ICSE48619.2023.00122.
+\item E. Murphy-Hill, T. Zimmermann, and N. Nagappan. Cowboys, Ankle Sprains, and Keepers of Quality: How Is Video Game Development Different from Software Development? In \emph{Proc.\ 36th Int.\ Conf.\ on Software Engineering (ICSE 2014)}, 1--11. doi:10.1145/2568225.2568226.
+\item L. Pascarella, F. Palomba, M. Di Penta, and A. Bacchelli. How Is Video Game Development Different from Software Development in Open Source? In \emph{Proc.\ 15th Int.\ Conf.\ on Mining Software Repositories (MSR 2018)}, 392--402. doi:10.1145/3196398.3196418.
+\item C. Politowski, F. Petrillo, and Y.-G. Gu\'eh\'eneuc. A Survey of Video Game Testing. In \emph{Proc.\ 2021 IEEE/ACM Int.\ Conf.\ on Automation of Software Test (AST 2021)}, 90--99. doi:10.1109/AST52587.2021.00018.
+\item H. M. Canella, Y. Duarte, C. Politowski, V. Durelli, and A. T. Endo. Characterizing Open-Source Video Games from a Software Engineering Perspective. In \emph{Proc.\ 10th Int.\ Workshop on Games and Software Engineering (GAS '26)}, 1--8. doi:10.1145/3786171.3788385.
+\item F. Marsad and N. Weeraddana. OSSGameBench: A Large-Scale Dataset of Development Activities in Open-Source Video Games. In \emph{Proc.\ 23rd Int.\ Conf.\ on Mining Software Repositories (MSR '26)}, 620--624. doi:10.1145/3793302.3793313.
+\item A. Truelove, E. Santana de Almeida, and I. Ahmed. We'll Fix It in Post: What Do Bug Fixes in Video Game Update Notes Tell Us? In \emph{Proc.\ 43rd Int.\ Conf.\ on Software Engineering (ICSE 2021)}, 736--747. doi:10.1109/ICSE43902.2021.00073.
+\item K. Chen, Y. Li, Y. Chen, C. Fan, Z. Hu, and W. Yang. GLIB: Towards Automated Test Oracle for Graphically-Rich Applications. In \emph{Proc.\ ESEC/FSE 2021}, 1093--1104. doi:10.1145/3468264.3468586.
+\item J. Yu, Y. Wu, X. Xie, W. Le, L. Ma, Y. Chen, J. Hu, and F. Zhang. GameRTS: A Regression Testing Framework for Video Games. In \emph{Proc.\ 45th Int.\ Conf.\ on Software Engineering (ICSE 2023)}, 1393--1404. doi:10.1109/ICSE48619.2023.00122.
 \end{enumerate}
 \normalsize
 
