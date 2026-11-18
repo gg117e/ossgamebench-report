@@ -1,0 +1,148 @@
+{
+  "labels": {
+    "continuous": 102,
+    "discrete": 73,
+    "mixed": 2
+  },
+  "web_projects": 49,
+  "issues_by_type": {
+    "discrete": 5390,
+    "continuous": 4474,
+    "mixed": 218
+  },
+  "project_logit_any_test_fix": {
+    "Intercept": {
+      "odds_ratio": 0.029,
+      "ci": [
+        0.01,
+        0.083
+      ],
+      "p": 0.0
+    },
+    "discrete": {
+      "odds_ratio": 2.938,
+      "ci": [
+        1.194,
+        7.229
+      ],
+      "p": 0.019
+    },
+    "web": {
+      "odds_ratio": 2.969,
+      "ci": [
+        1.126,
+        7.83
+      ],
+      "p": 0.0279
+    },
+    "log_n": {
+      "odds_ratio": 2.396,
+      "ci": [
+        1.795,
+        3.198
+      ],
+      "p": 0.0
+    }
+  },
+  "gee": {
+    "type_only": {
+      "discrete": [
+        4.326,
+        2.265,
+        8.261,
+        0.0
+      ]
+    },
+    "type_symptom": {
+      "discrete": [
+        3.765,
+        1.97,
+        7.196,
+        0.0
+      ]
+    },
+    "full": {
+      "discrete": [
+        1.741,
+        0.57,
+        5.315,
+        0.33
+      ],
+      "web_i": [
+        7.274,
+        2.196,
+        24.09,
+        0.001
+      ]
+    }
+  },
+  "top5_test_projects": [
+    "tobymao/18xx",
+    "magefree/mage",
+    "vcmi/vcmi",
+    "space-wizards/space-station-14",
+    "cuttle-cards/cuttle"
+  ],
+  "sensitivity": {
+    "without_top5_test_projects": {
+      "issues": 6459,
+      "projects": 170,
+      "rate_discrete": 0.0414,
+      "rate_continuous": 0.0291,
+      "or_discrete": [
+        1.954,
+        0.787,
+        4.853,
+        0.149
+      ]
+    },
+    "native_only": {
+      "issues": 7342,
+      "projects": 126,
+      "rate_discrete": 0.0761,
+      "rate_continuous": 0.0321,
+      "or_discrete": [
+        1.855,
+        0.711,
+        4.843,
+        0.207
+      ]
+    },
+    "web_only": {
+      "issues": 2522,
+      "projects": 49,
+      "rate_discrete": 0.1027,
+      "rate_continuous": 0.0805,
+      "or_discrete": [
+        3.117,
+        0.543,
+        17.882,
+        0.202
+      ]
+    },
+    "without_idle": {
+      "issues": 9679,
+      "projects": 171,
+      "rate_discrete": 0.0911,
+      "rate_continuous": 0.0331,
+      "or_discrete": [
+        1.927,
+        0.773,
+        4.807,
+        0.159
+      ]
+    },
+    "projects_with_test_history": {
+      "issues": 9679,
+      "projects": 148,
+      "rate_discrete": 0.089,
+      "rate_continuous": 0.0341,
+      "or_discrete": [
+        3.104,
+        0.898,
+        10.735,
+        0.074
+      ]
+    }
+  }
+}

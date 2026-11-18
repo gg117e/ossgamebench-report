@@ -1,0 +1,50 @@
+{"pk": "quaver/quaver", "issue_number": 297, "category": "manual", "note": "in-game test screen (Screens/Tests)"}
+{"pk": "chrisneedham24/microcosm", "issue_number": 174, "category": "executable", "note": ""}
+{"pk": "tobymao/18xx", "issue_number": 5956, "category": "support", "note": "game-record fixture only"}
+{"pk": "vcmi/vcmi", "issue_number": 5636, "category": "support", "note": "mock header only"}
+{"pk": "lunartides/hearthstone.js", "issue_number": 99, "category": "not_test", "note": "test card content (cards/Tests/placeholder.js)"}
+{"pk": "space-wizards/space-station-14", "issue_number": 10370, "category": "executable", "note": ""}
+{"pk": "magefree/mage", "issue_number": 3391, "category": "executable", "note": ""}
+{"pk": "tobymao/18xx", "issue_number": 4181, "category": "support", "note": "fixtures only"}
+{"pk": "magefree/mage", "issue_number": 7653, "category": "executable", "note": ""}
+{"pk": "fruktus/quadradiuspreservationproject", "issue_number": 64, "category": "executable", "note": ""}
+{"pk": "cuttle-cards/cuttle", "issue_number": 346, "category": "executable", "note": ""}
+{"pk": "magefree/mage", "issue_number": 10805, "category": "executable", "note": ""}
+{"pk": "tobymao/18xx", "issue_number": 10462, "category": "executable", "note": ""}
+{"pk": "magefree/mage", "issue_number": 7160, "category": "executable", "note": ""}
+{"pk": "lichess-org/lila", "issue_number": 11450, "category": "executable", "note": ""}
+{"pk": "endless-sky/endless-sky", "issue_number": 4117, "category": "executable", "note": ""}
+{"pk": "ultrastar-deluxe/play", "issue_number": 351, "category": "executable", "note": ""}
+{"pk": "tobymao/18xx", "issue_number": 7913, "category": "support", "note": "fixture only"}
+{"pk": "littensy/slither", "issue_number": 149, "category": "executable", "note": ""}
+{"pk": "tobymao/18xx", "issue_number": 10171, "category": "executable", "note": ""}
+{"pk": "space-wizards/space-station-14", "issue_number": 3031, "category": "executable", "note": ""}
+{"pk": "space-wizards/space-station-14", "issue_number": 4672, "category": "executable", "note": ""}
+{"pk": "jeremyckahn/farmhand", "issue_number": 546, "category": "executable", "note": ""}
+{"pk": "space-wizards/space-station-14", "issue_number": 29470, "category": "executable", "note": ""}
+{"pk": "tobymao/18xx", "issue_number": 4727, "category": "support", "note": "fixture only"}
+{"pk": "space-wizards/space-station-14", "issue_number": 34477, "category": "executable", "note": ""}
+{"pk": "magefree/mage", "issue_number": 3315, "category": "executable", "note": ""}
+{"pk": "ultrastar-deluxe/play", "issue_number": 366, "category": "executable", "note": ""}
+{"pk": "crownicles/crownicles", "issue_number": 1073, "category": "not_test", "note": "in-game test commands (CommandsTest.ts)"}
+{"pk": "ymichael/everdell", "issue_number": 67, "category": "executable", "note": ""}
+{"pk": "tobymao/18xx", "issue_number": 2950, "category": "support", "note": "fixture only"}
+{"pk": "anthonytornetta/cosmos", "issue_number": 388, "category": "not_test", "note": "image asset named test_crystal.png"}
+{"pk": "space-wizards/space-station-14", "issue_number": 22625, "category": "executable", "note": ""}
+{"pk": "vcmi/vcmi", "issue_number": 1045, "category": "support", "note": "mock header only"}
+{"pk": "pokeclicker/pokeclicker", "issue_number": 4272, "category": "executable", "note": ""}
+{"pk": "sfttech/openage", "issue_number": 1564, "category": "support", "note": "CMake files for test assets"}
+{"pk": "vcmi/vcmi", "issue_number": 3514, "category": "support", "note": "mock and fixture class"}
+{"pk": "space-wizards/space-station-14", "issue_number": 10879, "category": "executable", "note": ""}
+{"pk": "tobymao/18xx", "issue_number": 895, "category": "executable", "note": ""}
+{"pk": "sfttech/openage", "issue_number": 1660, "category": "support", "note": "test list (infrastructure)"}
+{"pk": "eternagame/eternajs", "issue_number": 379, "category": "executable", "note": ""}
+{"pk": "magefree/mage", "issue_number": 8850, "category": "executable", "note": ""}
+{"pk": "fruktus/quadradiuspreservationproject", "issue_number": 77, "category": "executable", "note": ""}
+{"pk": "corsixth/corsixth", "issue_number": 1353, "category": "executable", "note": ""}
+{"pk": "tobymao/18xx", "issue_number": 2315, "category": "executable", "note": ""}
+{"pk": "freeorion/freeorion", "issue_number": 4566, "category": "executable", "note": ""}
+{"pk": "tobymao/18xx", "issue_number": 3831, "category": "support", "note": "fixture only"}
+{"pk": "tobymao/18xx", "issue_number": 4079, "category": "support", "note": "fixture only"}
+{"pk": "space-wizards/space-station-14", "issue_number": 5607, "category": "executable", "note": ""}
+{"pk": "triplea-game/triplea", "issue_number": 11617, "category": "executable", "note": ""}

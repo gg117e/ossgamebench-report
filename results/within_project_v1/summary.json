@@ -1,0 +1,80 @@
+{
+  "n_fixes": 10082,
+  "n_projects": 177,
+  "informative_projects": 56,
+  "informative_fixes": 7687,
+  "bootstrap_reps_ok": 1000,
+  "seed": 20261118,
+  "conditional_logit": {
+    "symptom=ui": {
+      "odds_ratio": 0.5627,
+      "wald_ci_low": 0.381,
+      "wald_ci_high": 0.831,
+      "p_value": 0.0038,
+      "boot_ci_low": 0.356,
+      "boot_ci_high": 0.7867
+    },
+    "symptom=crash_hang": {
+      "odds_ratio": 0.8732,
+      "wald_ci_low": 0.5957,
+      "wald_ci_high": 1.2802,
+      "p_value": 0.4874,
+      "boot_ci_low": 0.5964,
+      "boot_ci_high": 1.3896
+    },
+    "symptom=visual": {
+      "odds_ratio": 0.5508,
+      "wald_ci_low": 0.3419,
+      "wald_ci_high": 0.8874,
+      "p_value": 0.0143,
+      "boot_ci_low": 0.3085,
+      "boot_ci_high": 0.8336
+    },
+    "symptom=audio": {
+      "odds_ratio": 0.0976,
+      "wald_ci_low": 0.0131,
+      "wald_ci_high": 0.725,
+      "p_value": 0.0229,
+      "boot_ci_low": 0.0,
+      "boot_ci_high": 0.3243
+    },
+    "symptom=other": {
+      "odds_ratio": 0.6729,
+      "wald_ci_low": 0.4844,
+      "wald_ci_high": 0.9348,
+      "p_value": 0.0182,
+      "boot_ci_low": 0.4672,
+      "boot_ci_high": 0.9774
+    },
+    "log_paths": {
+      "odds_ratio": 3.7494,
+      "wald_ci_low": 2.8628,
+      "wald_ci_high": 4.9107,
+      "p_value": 0.0,
+      "boot_ci_low": 2.8472,
+      "boot_ci_high": 4.9576
+    },
+    "year_c": {
+      "odds_ratio": 0.918,
+      "wald_ci_low": 0.8162,
+      "wald_ci_high": 1.0324,
+      "p_value": 0.1532,
+      "boot_ci_low": 0.8165,
+      "boot_ci_high": 1.0272
+    }
+  },
+  "mcfadden_r2": {
+    "null": 0.0,
+    "symptom_only": 0.0204,
+    "project_only": 0.2525,
+    "project_plus_symptom": 0.2583,
+    "project_x_symptom": 0.3009
+  },
+  "gameplay_vs_rest_projects": {
+    "n_projects": 34,
+    "gameplay_higher": 21,
+    "equal": 1,
+    "gameplay_lower": 12
+  },
+  "gameplay_is_fallback_class": true
+}

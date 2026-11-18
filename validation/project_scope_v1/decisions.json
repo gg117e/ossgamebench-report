@@ -1,0 +1,27 @@
+{
+  "note": "Provisional Codex README review, 2026-11-12; indices refer to cohort_v1 cards. This is annotation data, not keyword inference.",
+  "game": [0,1,2,4,6,7,9,10,12,13,14,15,16,18,19,20,24,25,26,27,28,30,32,33,34,35,36,38,41,45,47,50,54,57,58,59,60,62,63,64,65,68,73,74,75,76,79,81,83,84,85,87,88,89,90,91,92,93,94,95,99,103,105,109,111,112,113,114,115,117,120,121,122,124,125,126,128,130,132,133,138,141,148,151,155,160,161,162,164,165,169,171,173,175,178,184,186,188,189,195,198,199,201,202,204,208,212,213,215,216,218,219,224,227,229,231,234,235,245,250,253,257,258,264,265,266,267,268,269,270,271,276,279,281,283,284,285,287,289,290,291,294,295,297,305,306,307,314,315,316,318,319,320,323,328,338,341,344,345],
+  "engine_tool": [5,8,11,17,21,22,29,31,37,40,42,43,44,48,51,53,55,56,61,66,67,69,70,77,80,86,96,97,98,100,102,104,106,108,110,116,118,134,136,137,144,145,146,154,156,157,158,159,166,170,174,176,177,179,180,181,191,192,194,197,200,205,206,211,214,217,220,222,223,226,228,230,232,233,237,238,241,242,246,248,251,252,255,259,260,261,274,275,278,286,288,296,298,300,304,317,324,325,326,329,331,332,334,337,340,343,346,347],
+  "mixed": [46,49,52,71,72,78,107,127,129,139,150,203,244,272,308,309,342],
+  "evidence_overrides": {
+    "4": "Distributed mods include a reimagining of",
+    "6": "Thrive on Steam",
+    "10": "A reimplementation of the 1997 Bullfrog business sim Theme Hospital.",
+    "16": "XMage allows you to play Magic against one or more online players or computer opponents.",
+    "17": "A Flutter-based game engine.",
+    "33": "based on the original game by",
+    "35": "To play, you require",
+    "42": "is a game console where",
+    "43": "the simulation happens entirely on",
+    "46": "classic RPG creator Blades of",
+    "70": "This repository is just the engine",
+    "79": "Minicraft+ is an overhaul mod of Minicraft",
+    "85": "Combat the enemy with swords, guns, grenades",
+    "87": "Freeciv21 is a free open source turn-based empire-building",
+    "89": "Fan project recreating the classic Gothic I and II experience in VR.",
+    "100": "State-of-the-art navmesh generation and navigation for games.",
+    "106": "A 2D game framework written in Kotlin",
+    "111": "同人ゲームです",
+    "112": "the arcade space shooter Destination Sol"
+  }
+}

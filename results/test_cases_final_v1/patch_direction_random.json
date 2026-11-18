@@ -1,0 +1,315 @@
+{
+ "seed": 20261113,
+ "summary": {
+  "reversed": 25,
+  "not_found_on_github": 1,
+  "other": 2
+ },
+ "rows": [
+  {
+   "repo": "beardgame/utilities",
+   "sha": "c1f2cefaabc8ac158e43d19d943be6ac747209f3",
+   "path": "src/Core/Maybe.cs",
+   "data_plus": 2,
+   "data_minus": 4,
+   "gh_found": true,
+   "gh_additions": 4,
+   "gh_deletions": 2,
+   "direction": "reversed"
+  },
+  {
+   "repo": "beardgame/utilities",
+   "sha": "2d85df6ac91ee2310d4cb831a30957981feba0b5",
+   "path": "Bearded.Utilities.Tests/Collections/DeletableObjectListTests.cs",
+   "data_plus": 56,
+   "data_minus": 58,
+   "gh_found": true,
+   "gh_additions": 58,
+   "gh_deletions": 56,
+   "direction": "reversed"
+  },
+  {
+   "repo": "Chuckleberry-Finn/zomboid-cnd-speech",
+   "sha": "6a48aee6558448e26328adf9aaee3915bc83423b",
+   "path": "mod.gradle",
+   "data_plus": 81,
+   "data_minus": 83,
+   "gh_found": true,
+   "gh_additions": 83,
+   "gh_deletions": 81,
+   "direction": "reversed"
+  },
+  {
+   "repo": "Chuckleberry-Finn/zomboid-cnd-speech",
+   "sha": "fadbbd280e4e765f71983922934d4d273974f1ba",
+   "path": ".gitignore",
+   "data_plus": 0,
+   "data_minus": 1,
+   "gh_found": true,
+   "gh_additions": 1,
+   "gh_deletions": 0,
+   "direction": "reversed"
+  },
+  {
+   "repo": "afwbkbc/glsmac",
+   "sha": "b0bef0bdd26c683f5cf2aac5795729a07df46121",
+   "path": "src/game/unit/Unit.h",
+   "data_plus": 1,
+   "data_minus": 2,
+   "gh_found": true,
+   "gh_additions": 2,
+   "gh_deletions": 1,
+   "direction": "reversed"
+  },
+  {
+   "repo": "afwbkbc/glsmac",
+   "sha": "78accf379042e662676a5754e162f53ab90f2c08",
+   "path": "src/loader/font/FreeType.cpp",
+   "data_plus": 2,
+   "data_minus": 10,
+   "gh_found": true,
+   "gh_additions": 10,
+   "gh_deletions": 2,
+   "direction": "reversed"
+  },
+  {
+   "repo": "halftheopposite/tosios",
+   "sha": "ad0af0fdeeceab634ff91520a0ba59a7dd0fee4b",
+   "path": "packages/client/src/managers/ManagerContainer.ts",
+   "data_plus": 12,
+   "data_minus": 15,
+   "gh_found": false
+  },
+  {
+   "repo": "halftheopposite/tosios",
+   "sha": "4e83b218cd08a346b769aa70548b47e6d7c773c3",
+   "path": "packages/client/src/hooks/useAnalytics.tsx",
+   "data_plus": 1,
+   "data_minus": 2,
+   "gh_found": true,
+   "gh_additions": 2,
+   "gh_deletions": 1,
+   "direction": "reversed"
+  },
+  {
+   "repo": "scriptex/2048",
+   "sha": "74dee4c2cae7ce4f6119a013ef63600a768a7b77",
+   "path": "yarn.lock",
+   "data_plus": 160,
+   "data_minus": 155,
+   "gh_found": true,
+   "gh_additions": 155,
+   "gh_deletions": 160,
+   "direction": "reversed"
+  },
+  {
+   "repo": "scriptex/2048",
+   "sha": "76cafc6a5d4e6c9e7877df3fa1627a954c78144e",
+   "path": "yarn.lock",
+   "data_plus": 57,
+   "data_minus": 188,
+   "gh_found": true,
+   "gh_additions": 188,
+   "gh_deletions": 57,
+   "direction": "reversed"
+  },
+  {
+   "repo": "Anut-py/h-raylib",
+   "sha": "42114654a1ac262ae96b6a108bf034ea9baae4ca",
+   "path": "CHANGELOG.md",
+   "data_plus": 0,
+   "data_minus": 6,
+   "gh_found": true,
+   "gh_additions": 6,
+   "gh_deletions": 0,
+   "direction": "reversed"
+  },
+  {
+   "repo": "Anut-py/h-raylib",
+   "sha": "6d17ccdfa9b6c261b5f233393f9697631f3f7632",
+   "path": "lib/bindings.c",
+   "data_plus": 10,
+   "data_minus": 21,
+   "gh_found": true,
+   "gh_additions": 21,
+   "gh_deletions": 10,
+   "direction": "reversed"
+  },
+  {
+   "repo": "librelancer/librelancer",
+   "sha": "c2fca50c1bdeeab35fa28a6a119d2ffd8dc78010",
+   "path": "src/LibreLancer.Base/AppHandler.cs",
+   "data_plus": 9,
+   "data_minus": 24,
+   "gh_found": true,
+   "gh_additions": 24,
+   "gh_deletions": 9,
+   "direction": "reversed"
+  },
+  {
+   "repo": "librelancer/librelancer",
+   "sha": "e0bca7afb122675c325abb7cc8e6ab390f6fe95c",
+   "path": "src/LibreLancer/GameStates/SpaceGameplay.cs",
+   "data_plus": 40,
+   "data_minus": 88,
+   "gh_found": true,
+   "gh_additions": 88,
+   "gh_deletions": 40,
+   "direction": "reversed"
+  },
+  {
+   "repo": "Lamby777/PETS-G",
+   "sha": "54aaccc18ae20e9568fb5b82892bd50ffa53e262",
+   "path": "pets-lib/src/llm/mod.rs",
+   "data_plus": 0,
+   "data_minus": 5,
+   "gh_found": true,
+   "gh_additions": 5,
+   "gh_deletions": 0,
+   "direction": "reversed"
+  },
+  {
+   "repo": "Lamby777/PETS-G",
+   "sha": "0f81d869294005d078aca0c5f4c140fc05a07c43",
+   "path": "README.md",
+   "data_plus": 0,
+   "data_minus": 6,
+   "gh_found": true,
+   "gh_additions": 7,
+   "gh_deletions": 0,
+   "direction": "other"
+  },
+  {
+   "repo": "mmvanheusden/steamdepotdownloadergui",
+   "sha": "ccd5803ec1d2e9a343891b86616b4bb633d41493",
+   "path": "downloader.js",
+   "data_plus": 18,
+   "data_minus": 32,
+   "gh_found": true,
+   "gh_additions": 32,
+   "gh_deletions": 18,
+   "direction": "reversed"
+  },
+  {
+   "repo": "mmvanheusden/steamdepotdownloadergui",
+   "sha": "c4f0177b4a47257a70f7c3100c0454b520c9d157",
+   "path": "downloader2.js",
+   "data_plus": 13,
+   "data_minus": 134,
+   "gh_found": true,
+   "gh_additions": 134,
+   "gh_deletions": 13,
+   "direction": "reversed"
+  },
+  {
+   "repo": "age-series/electricalage",
+   "sha": "3c748df49cd43ae57a629235c12db3a35d4e4154",
+   "path": "src/main/java/mods/eln/sixnode/AnalogChips.kt",
+   "data_plus": 2,
+   "data_minus": 1,
+   "gh_found": true,
+   "gh_additions": 1,
+   "gh_deletions": 2,
+   "direction": "reversed"
+  },
+  {
+   "repo": "age-series/electricalage",
+   "sha": "4ec331de90938a7fd9660e71f69a28aa1305a5cc",
+   "path": "README.md",
+   "data_plus": 0,
+   "data_minus": 2,
+   "gh_found": true,
+   "gh_additions": 2,
+   "gh_deletions": 0,
+   "direction": "reversed"
+  },
+  {
+   "repo": "GreenComfyTea/MHR-Overlay",
+   "sha": "7c04f79a74f30b504abeff9e3ff44506d0a4fe91",
+   "path": "reframework/autorun/MHR_Overlay/Game_Handler/time.lua",
+   "data_plus": 9,
+   "data_minus": 1,
+   "gh_found": true,
+   "gh_additions": 1,
+   "gh_deletions": 9,
+   "direction": "reversed"
+  },
+  {
+   "repo": "GreenComfyTea/MHR-Overlay",
+   "sha": "60b67db2819ecd40a6641b6e55550fdd4dba0b14",
+   "path": "MHR_Overlay.lua",
+   "data_plus": 797,
+   "data_minus": 1330,
+   "gh_found": true,
+   "gh_additions": 1385,
+   "gh_deletions": 797,
+   "direction": "other"
+  },
+  {
+   "repo": "jacob1/the-powder-toy",
+   "sha": "c81823f31e699c87b263ef0769cc9dacb16a32bb",
+   "path": "src/powder.cpp",
+   "data_plus": 2,
+   "data_minus": 0,
+   "gh_found": true,
+   "gh_additions": 0,
+   "gh_deletions": 2,
+   "direction": "reversed"
+  },
+  {
+   "repo": "jacob1/the-powder-toy",
+   "sha": "5b727f6be321b95bab61b5a1c8c066161dd32dcd",
+   "path": "src/luascriptinterface.cpp",
+   "data_plus": 3,
+   "data_minus": 18,
+   "gh_found": true,
+   "gh_additions": 18,
+   "gh_deletions": 3,
+   "direction": "reversed"
+  },
+  {
+   "repo": "HTV04/funkin-rewritten",
+   "sha": "c06cb1b5de3d5402c74784c49c217ae186fc725b",
+   "path": "src/love/weeks/tutorial.lua",
+   "data_plus": 70,
+   "data_minus": 52,
+   "gh_found": true,
+   "gh_additions": 52,
+   "gh_deletions": 70,
+   "direction": "reversed"
+  },
+  {
+   "repo": "HTV04/funkin-rewritten",
+   "sha": "8f207b29be637692692fbec2153db268e7a8d4f8",
+   "path": "src/love/main.lua",
+   "data_plus": 2,
+   "data_minus": 4,
+   "gh_found": true,
+   "gh_additions": 4,
+   "gh_deletions": 2,
+   "direction": "reversed"
+  },
+  {
+   "repo": "ogsteam/ogspy",
+   "sha": "74dcd069dfed1de1f47eeba8a45235083214d2d6",
+   "path": "includes/help.php",
+   "data_plus": 0,
+   "data_minus": 1,
+   "gh_found": true,
+   "gh_additions": 1,
+   "gh_deletions": 0,
+   "direction": "reversed"
+  },
+  {
+   "repo": "ogsteam/ogspy",
+   "sha": "fdf1dc0846ca88bc3c71a9bd9e0b4c53a2e47da1",
+   "path": "lang/hr/lang_install.php",
+   "data_plus": 70,
+   "data_minus": 69,
+   "gh_found": true,
+   "gh_additions": 69,
+   "gh_deletions": 70,
+   "direction": "reversed"
+  }
+ ]
+}

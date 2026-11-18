@@ -1,0 +1,24 @@
+projects with any test-file change in history: 695 / 950; commits touching tests 5.3%
+share of commits touching tests per project (among projects with tests): {'count': 695.0, 'mean': 0.08, 'std': 0.101, 'min': 0.0, '25%': 0.01, '50%': 0.038, '75%': 0.111, 'max': 0.535}
+bug fixes with files: 13,883; fix includes test change: 1,445 (10.4%)
+  in projects that have tests at all: 13,508 fixes, of which with test 10.7%
+  test share: asset-touching fixes 35.6% vs code-only fixes 9.1%
+  asset-only fixes (no code, no test): 34
+per project (>=30 fixes) share of fixes with tests: {'count': 68.0, 'mean': 0.12, 'std': 0.177, 'min': 0.0, '25%': 0.008, '50%': 0.048, '75%': 0.136, 'max': 0.922} projects 68
+crude category (title/body keywords): share of all bugs | n fixes | % fixes with test
+  crash                 28.1% |  3,394 |  10.1%
+  visual                18.3% |  2,397 |  11.4%
+  audio                  4.1% |    480 |   4.8%
+  ui                    14.7% |  2,178 |   9.4%
+  gameplay/rules        32.6% |  4,479 |  11.9%
+  network/multiplayer   17.0% |  2,131 |  12.5%
+  save/load             19.9% |  3,198 |   7.8%
+  performance            4.6% |    556 |  10.3%
+artefacts in bug report bodies: share | median days to close with vs without (closed only)
+  image/screenshot      23.7% |   10.8 vs    8.7
+  video                  2.7% |   20.2 vs    9.0
+  save file              4.4% |    7.9 vs    9.3
+  log/stacktrace        18.5% |    8.8 vs    9.3
+  steps to reproduce    27.8% |   10.9 vs    8.5
+  version/platform      40.1% |   10.9 vs    8.1
+empty body: 3.4%

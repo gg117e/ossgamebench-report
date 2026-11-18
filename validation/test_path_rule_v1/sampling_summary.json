@@ -1,0 +1,8 @@
+{
+  "seed": 20261115,
+  "population": 10082,
+  "flagged": 626,
+  "unflagged": 9456,
+  "sample_per_stratum": 50,
+  "unflagged_with_probe_substring": 153
+}

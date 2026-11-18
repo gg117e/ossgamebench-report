@@ -1,0 +1,48 @@
+{
+  "cases": 30,
+  "projects": 18,
+  "relation_to_bug": {
+    "related_area": 4,
+    "direct_regression": 14,
+    "adapt_existing": 10,
+    "unrelated_new_test": 1,
+    "test_suite_bug": 1
+  },
+  "primary_category_all": {
+    "gameplay": 13,
+    "ui": 5,
+    "multiple": 2,
+    "tooling_other": 2,
+    "crash_hang": 5,
+    "save_load": 1,
+    "unknown": 1,
+    "visual": 1
+  },
+  "primary_category_direct": {
+    "ui": 3,
+    "gameplay": 6,
+    "tooling_other": 1,
+    "crash_hang": 4
+  },
+  "change_kind_direct": {
+    "added": 11,
+    "modified": 3
+  },
+  "fixture_role_any": 4,
+  "report_material_to_test": {
+    "none_observed": 17,
+    "screenshot_in_issue_not_used_as_oracle": 1,
+    "code_link_in_issue": 1,
+    "game_url_in_issue_is_other_game": 1,
+    "game_log_in_issue": 1,
+    "stack_trace_locates_function": 1,
+    "screenshot_in_issue_not_used": 1,
+    "game_record_from_issue_url": 1,
+    "none_observed_empty_body": 2,
+    "puzzle_link_in_issue": 1,
+    "yaml_snippet_in_issue": 1,
+    "cause_described_in_issue": 1,
+    "screenshots_in_issue_not_used": 1
+  },
+  "note": "Diversity sample (project cap 3), not a prevalence estimate. LLM labels, not human-validated."
+}

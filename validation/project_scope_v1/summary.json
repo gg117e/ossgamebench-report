@@ -1,0 +1,41 @@
+{
+  "status": "provisional_scope_not_human_validated",
+  "scope_counts": [
+    {
+      "scope": "engine_tool",
+      "projects": 125,
+      "candidate_issues": 2984,
+      "test_candidate_issues": 603,
+      "test_candidate_rate": 0.20207774798927614
+    },
+    {
+      "scope": "game",
+      "projects": 181,
+      "candidate_issues": 10511,
+      "test_candidate_issues": 741,
+      "test_candidate_rate": 0.07049757397012653
+    },
+    {
+      "scope": "mixed",
+      "projects": 20,
+      "candidate_issues": 282,
+      "test_candidate_issues": 75,
+      "test_candidate_rate": 0.26595744680851063
+    },
+    {
+      "scope": "unknown",
+      "projects": 22,
+      "candidate_issues": 106,
+      "test_candidate_issues": 26,
+      "test_candidate_rate": 0.24528301886792453
+    }
+  ],
+  "game_issues_dataset_readme_evidence": 9616,
+  "game_issues_external_evidence": 895,
+  "sources": {
+    "results\\cohort_v1\\scope_review_cards.jsonl": "4b476e8d75db2ca63294868b102a4d9c715c5a4a042e616a364ee15e252a3331",
+    "validation\\project_scope_v1\\decisions.json": "e92fb4420af13f96ce9bfb9af7d58bfe6b2cf15787ccb233ee829cb5120f2b86",
+    "validation\\project_scope_v1\\review_additions.json": "352d02d168f55e14f8e487a7ee4f4aa4572471ad8c84ad5f1179bf068adffe94"
+  },
+  "game_cohort": "C:\\Users\\<user>\\ossgamebench-data\\interim\\game_scope_v1\\game_cohort.parquet"
+}

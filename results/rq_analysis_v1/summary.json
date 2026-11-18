@@ -1,0 +1,126 @@
+{
+  "population": {
+    "issues": 10082,
+    "projects": 177,
+    "projects_with_test_history": 150,
+    "issues_in_projects_with_test_history": 9897
+  },
+  "symptom_raw_counts": {
+    "gameplay": 4620,
+    "ui": 2493,
+    "crash_hang": 996,
+    "visual": 786,
+    "tooling_other": 523,
+    "audio": 261,
+    "network": 214,
+    "save_load": 95,
+    "performance": 94
+  },
+  "rule_source": {
+    "fallback": 4620,
+    "title": 3891,
+    "body": 1571
+  },
+  "top3_projects": [
+    "tobymao/18xx",
+    "ihhub/fheroes2",
+    "space-wizards/space-station-14"
+  ],
+  "sensitivity_rates": {
+    "main": {
+      "issues": 10082,
+      "projects": 177,
+      "gameplay": 0.0857,
+      "ui": 0.0445,
+      "crash_hang": 0.0412,
+      "visual": 0.0369,
+      "audio": 0.0077,
+      "other": 0.0508,
+      "all": 0.0621
+    },
+    "projects_with_test_history": {
+      "issues": 9897,
+      "projects": 150,
+      "gameplay": 0.0871,
+      "ui": 0.0453,
+      "crash_hang": 0.0425,
+      "visual": 0.0381,
+      "audio": 0.0078,
+      "other": 0.0514,
+      "all": 0.0633
+    },
+    "without_top3_projects": {
+      "issues": 6481,
+      "projects": 174,
+      "gameplay": 0.0984,
+      "ui": 0.0465,
+      "crash_hang": 0.0421,
+      "visual": 0.0467,
+      "audio": 0.0124,
+      "other": 0.0509,
+      "all": 0.0665
+    },
+    "single_issue_prs_only": {
+      "issues": 8229,
+      "projects": 176,
+      "gameplay": 0.0763,
+      "ui": 0.0347,
+      "crash_hang": 0.031,
+      "visual": 0.0294,
+      "audio": 0.0,
+      "other": 0.0399,
+      "all": 0.0525
+    },
+    "rule_hit_only_no_fallback": {
+      "issues": 5462,
+      "projects": 147,
+      "gameplay": null,
+      "ui": 0.0445,
+      "crash_hang": 0.0412,
+      "visual": 0.0369,
+      "audio": 0.0077,
+      "other": 0.0508,
+      "all": 0.0421
+    }
+  },
+  "per_project": {
+    "projects": 177,
+    "projects_with_any_test_fix": 61,
+    "median_rate": 0.0,
+    "median_rate_projects_ge20": 0.018518518518518517,
+    "projects_ge20": 53,
+    "share_of_test_fixes_from_top5_projects": 0.6373801916932907
+  },
+  "test_rate_by_material": {
+    "image": {
+      "with": 0.0382,
+      "without": 0.0754,
+      "n_with": 3610
+    },
+    "video": {
+      "with": 0.02,
+      "without": 0.0636,
+      "n_with": 350
+    },
+    "save_data": {
+      "with": 0.0383,
+      "without": 0.0649,
+      "n_with": 1070
+    },
+    "log_trace": {
+      "with": 0.0517,
+      "without": 0.063,
+      "n_with": 774
+    },
+    "steps": {
+      "with": 0.0595,
+      "without": 0.0626,
+      "n_with": 1563
+    },
+    "game_link": {
+      "with": 0.0806,
+      "without": 0.0601,
+      "n_with": 992
+    }
+  }
+}

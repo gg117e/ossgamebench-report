@@ -1,0 +1,13 @@
+{
+  "status": "patches_extracted_not_semantically_classified",
+  "prs": 30,
+  "projects": 18,
+  "test_candidate_patches": 55,
+  "sampling": "shuffled eligible PRs, capped by project, excluding held-out issue PRs; qualitative only",
+  "seed": 20261112,
+  "project_cap": 3,
+  "diff_source": "final_landing_commit",
+  "excluded_holdout_prs": 93,
+  "missing_candidate_patches": 0,
+  "source_sample_sha256": "c941973497a73a102f598f56d4dbcaeae82ef138ee18a9c12f0d594751cb600f"
+}

@@ -1,0 +1,24 @@
+[
+  {
+    "repository": "lichess-org/lila",
+    "pr_number": 16700,
+    "url": "https://github.com/lichess-org/lila/pull/16700",
+    "title": "set z-index on 3d pieces in learn",
+    "changed_files": 5,
+    "commits": 3,
+    "merge_commit_sha": "deef7e1227a882fd31bdf5fc772e44adbc1cf484",
+    "source": "GitHub connector fetch_pr",
+    "retrieved_date_jst": "2026-11-12"
+  },
+  {
+    "repository": "tobymao/18xx",
+    "pr_number": 10907,
+    "url": "https://github.com/tobymao/18xx/pull/10907",
+    "title": "[1822MX] include NdeM shares in liquidity calculation",
+    "changed_files": 4,
+    "commits": 3,
+    "merge_commit_sha": "0baf5d12932085688738449280beaadd6fc328d3",
+    "source": "GitHub connector fetch_pr",
+    "retrieved_date_jst": "2026-11-12"
+  }
+]

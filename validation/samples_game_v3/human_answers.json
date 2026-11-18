@@ -1,0 +1,402 @@
+[
+  {
+    "sample_id": "ihhub/fheroes2#4278",
+    "is_actual_bug": "yes",
+    "primary_category": "gameplay",
+    "issue_domain": "player_runtime",
+    "confidence": "high",
+    "rationale": ""
+  },
+  {
+    "sample_id": "vcmi/vcmi#4146",
+    "is_actual_bug": "yes",
+    "primary_category": "gameplay",
+    "issue_domain": "player_runtime",
+    "confidence": "high",
+    "rationale": ""
+  },
+  {
+    "sample_id": "tobymao/18xx#3343",
+    "is_actual_bug": "yes",
+    "primary_category": "gameplay",
+    "issue_domain": "player_runtime",
+    "confidence": "high",
+    "rationale": ""
+  },
+  {
+    "sample_id": "vcmi/vcmi#5848",
+    "is_actual_bug": "yes",
+    "primary_category": "crash_hang",
+    "issue_domain": "player_runtime",
+    "confidence": "high",
+    "rationale": ""
+  },
+  {
+    "sample_id": "corsixth/corsixth#846",
+    "is_actual_bug": "yes",
+    "primary_category": "ui",
+    "issue_domain": "player_runtime",
+    "confidence": "high",
+    "rationale": ""
+  },
+  {
+    "sample_id": "magefree/mage#13227",
+    "is_actual_bug": "yes",
+    "primary_category": "gameplay",
+    "issue_domain": "player_runtime",
+    "confidence": "high",
+    "rationale": ""
+  },
+  {
+    "sample_id": "ihhub/fheroes2#2337",
+    "is_actual_bug": "yes",
+    "primary_category": "gameplay",
+    "issue_domain": "player_runtime",
+    "confidence": "high",
+    "rationale": ""
+  },
+  {
+    "sample_id": "luanti-org/minetest_game#2216",
+    "is_actual_bug": "yes",
+    "primary_category": "visual",
+    "issue_domain": "player_runtime",
+    "confidence": "high",
+    "rationale": ""
+  },
+  {
+    "sample_id": "ihhub/fheroes2#9543",
+    "is_actual_bug": "yes",
+    "primary_category": "ui",
+    "issue_domain": "player_runtime",
+    "confidence": "high",
+    "rationale": ""
+  },
+  {
+    "sample_id": "ihhub/fheroes2#4838",
+    "is_actual_bug": "yes",
+    "primary_category": "visual",
+    "issue_domain": "player_runtime",
+    "confidence": "high",
+    "rationale": ""
+  },
+  {
+    "sample_id": "space-wizards/space-station-14#22604",
+    "is_actual_bug": "yes",
+    "primary_category": "unknown",
+    "issue_domain": "player_runtime",
+    "confidence": "medium",
+    "rationale": ""
+  },
+  {
+    "sample_id": "endless-sky/endless-sky#5637",
+    "is_actual_bug": "yes",
+    "primary_category": "ui",
+    "issue_domain": "player_runtime",
+    "confidence": "high",
+    "rationale": ""
+  },
+  {
+    "sample_id": "lykoss/lykos#256",
+    "is_actual_bug": "yes",
+    "primary_category": "gameplay",
+    "issue_domain": "player_runtime",
+    "confidence": "high",
+    "rationale": ""
+  },
+  {
+    "sample_id": "vcmi/vcmi#1986",
+    "is_actual_bug": "yes",
+    "primary_category": "gameplay",
+    "issue_domain": "player_runtime",
+    "confidence": "high",
+    "rationale": ""
+  },
+  {
+    "sample_id": "ihhub/fheroes2#5358",
+    "is_actual_bug": "yes",
+    "primary_category": "ui",
+    "issue_domain": "player_runtime",
+    "confidence": "high",
+    "rationale": ""
+  },
+  {
+    "sample_id": "tobymao/18xx#6574",
+    "is_actual_bug": "yes",
+    "primary_category": "gameplay",
+    "issue_domain": "player_runtime",
+    "confidence": "high",
+    "rationale": ""
+  },
+  {
+    "sample_id": "openra/openra#8623",
+    "is_actual_bug": "yes",
+    "primary_category": "gameplay",
+    "issue_domain": "player_runtime",
+    "confidence": "medium",
+    "rationale": ""
+  },
+  {
+    "sample_id": "ihhub/fheroes2#5001",
+    "is_actual_bug": "yes",
+    "primary_category": "gameplay",
+    "issue_domain": "player_runtime",
+    "confidence": "high",
+    "rationale": ""
+  },
+  {
+    "sample_id": "tobymao/18xx#9166",
+    "is_actual_bug": "yes",
+    "primary_category": "gameplay",
+    "issue_domain": "player_runtime",
+    "confidence": "high",
+    "rationale": ""
+  },
+  {
+    "sample_id": "lichess-org/lila#13877",
+    "is_actual_bug": "",
+    "primary_category": "",
+    "issue_domain": "",
+    "confidence": "",
+    "rationale": ""
+  },
+  {
+    "sample_id": "lostartefacts/trx#1242",
+    "is_actual_bug": "",
+    "primary_category": "",
+    "issue_domain": "",
+    "confidence": "",
+    "rationale": ""
+  },
+  {
+    "sample_id": "revolutionary-games/thrive#2655",
+    "is_actual_bug": "",
+    "primary_category": "",
+    "issue_domain": "",
+    "confidence": "",
+    "rationale": ""
+  },
+  {
+    "sample_id": "revolutionary-games/thrive#1704",
+    "is_actual_bug": "",
+    "primary_category": "",
+    "issue_domain": "",
+    "confidence": "",
+    "rationale": ""
+  },
+  {
+    "sample_id": "rmc-14/rmc-14#7910",
+    "is_actual_bug": "",
+    "primary_category": "",
+    "issue_domain": "",
+    "confidence": "",
+    "rationale": ""
+  },
+  {
+    "sample_id": "zerok-rts/zero-k#3949",
+    "is_actual_bug": "",
+    "primary_category": "",
+    "issue_domain": "",
+    "confidence": "",
+    "rationale": ""
+  },
+  {
+    "sample_id": "revolutionary-games/thrive#2959",
+    "is_actual_bug": "",
+    "primary_category": "",
+    "issue_domain": "",
+    "confidence": "",
+    "rationale": ""
+  },
+  {
+    "sample_id": "ihhub/fheroes2#5509",
+    "is_actual_bug": "",
+    "primary_category": "",
+    "issue_domain": "",
+    "confidence": "",
+    "rationale": ""
+  },
+  {
+    "sample_id": "space-wizards/space-station-14#1802",
+    "is_actual_bug": "",
+    "primary_category": "",
+    "issue_domain": "",
+    "confidence": "",
+    "rationale": ""
+  },
+  {
+    "sample_id": "quaver/quaver#1252",
+    "is_actual_bug": "",
+    "primary_category": "",
+    "issue_domain": "",
+    "confidence": "",
+    "rationale": ""
+  },
+  {
+    "sample_id": "space-wizards/space-station-14#20199",
+    "is_actual_bug": "",
+    "primary_category": "",
+    "issue_domain": "",
+    "confidence": "",
+    "rationale": ""
+  },
+  {
+    "sample_id": "lichess-org/lila#4617",
+    "is_actual_bug": "",
+    "primary_category": "",
+    "issue_domain": "",
+    "confidence": "",
+    "rationale": ""
+  },
+  {
+    "sample_id": "jdoleary/spellmasons#109",
+    "is_actual_bug": "",
+    "primary_category": "",
+    "issue_domain": "",
+    "confidence": "",
+    "rationale": ""
+  },
+  {
+    "sample_id": "ja2-stracciatella/ja2-stracciatella#1676",
+    "is_actual_bug": "",
+    "primary_category": "",
+    "issue_domain": "",
+    "confidence": "",
+    "rationale": ""
+  },
+  {
+    "sample_id": "ihhub/fheroes2#4721",
+    "is_actual_bug": "",
+    "primary_category": "",
+    "issue_domain": "",
+    "confidence": "",
+    "rationale": ""
+  },
+  {
+    "sample_id": "lunartides/hearthstone.js#47",
+    "is_actual_bug": "",
+    "primary_category": "",
+    "issue_domain": "",
+    "confidence": "",
+    "rationale": ""
+  },
+  {
+    "sample_id": "tobymao/18xx#7414",
+    "is_actual_bug": "",
+    "primary_category": "",
+    "issue_domain": "",
+    "confidence": "",
+    "rationale": ""
+  },
+  {
+    "sample_id": "movingblocks/destinationsol#490",
+    "is_actual_bug": "",
+    "primary_category": "",
+    "issue_domain": "",
+    "confidence": "",
+    "rationale": ""
+  },
+  {
+    "sample_id": "openra/openra#6476",
+    "is_actual_bug": "",
+    "primary_category": "",
+    "issue_domain": "",
+    "confidence": "",
+    "rationale": ""
+  },
+  {
+    "sample_id": "space-wizards/space-station-14#33488",
+    "is_actual_bug": "",
+    "primary_category": "",
+    "issue_domain": "",
+    "confidence": "",
+    "rationale": ""
+  },
+  {
+    "sample_id": "tobymao/18xx#5120",
+    "is_actual_bug": "",
+    "primary_category": "",
+    "issue_domain": "",
+    "confidence": "",
+    "rationale": ""
+  },
+  {
+    "sample_id": "theassemblyarmada/thyme#863",
+    "is_actual_bug": "",
+    "primary_category": "",
+    "issue_domain": "",
+    "confidence": "",
+    "rationale": ""
+  },
+  {
+    "sample_id": "pokeclicker/pokeclicker#2801",
+    "is_actual_bug": "",
+    "primary_category": "",
+    "issue_domain": "",
+    "confidence": "",
+    "rationale": ""
+  },
+  {
+    "sample_id": "revolutionary-games/thrive#854",
+    "is_actual_bug": "",
+    "primary_category": "",
+    "issue_domain": "",
+    "confidence": "",
+    "rationale": ""
+  },
+  {
+    "sample_id": "vcmi/vcmi#2081",
+    "is_actual_bug": "",
+    "primary_category": "",
+    "issue_domain": "",
+    "confidence": "",
+    "rationale": ""
+  },
+  {
+    "sample_id": "ihhub/fheroes2#4793",
+    "is_actual_bug": "",
+    "primary_category": "",
+    "issue_domain": "",
+    "confidence": "",
+    "rationale": ""
+  },
+  {
+    "sample_id": "ihhub/fheroes2#5503",
+    "is_actual_bug": "",
+    "primary_category": "",
+    "issue_domain": "",
+    "confidence": "",
+    "rationale": ""
+  },
+  {
+    "sample_id": "quaver/quaver#827",
+    "is_actual_bug": "",
+    "primary_category": "",
+    "issue_domain": "",
+    "confidence": "",
+    "rationale": ""
+  },
+  {
+    "sample_id": "ihhub/fheroes2#4200",
+    "is_actual_bug": "",
+    "primary_category": "",
+    "issue_domain": "",
+    "confidence": "",
+    "rationale": ""
+  },
+  {
+    "sample_id": "cookgreen/yuris-revenge#157",
+    "is_actual_bug": "",
+    "primary_category": "",
+    "issue_domain": "",
+    "confidence": "",
+    "rationale": ""
+  },
+  {
+    "sample_id": "space-wizards/space-station-14#22602",
+    "is_actual_bug": "",
+    "primary_category": "",
+    "issue_domain": "",
+    "confidence": "",
+    "rationale": ""
+  }
+]

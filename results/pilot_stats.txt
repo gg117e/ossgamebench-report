@@ -1,0 +1,97 @@
+
+==========================================================================================
+0. Scope
+==========================================================================================
+projects 950; with issues 944; issues 319,709; PRs 388,445; commits 2,758,344 (projects 950)
+commit time range (UTC): 1970-01-01 00:00:00+00:00 -> 2025-11-08 15:08:29+00:00
+commits per project: n=950 p0=1.0 p25=322.0 p50=791.0 p75=2340.2 p90=6557.3 p100=75707.0 mean=2903.52
+projects with <10 commits (selection required >10): {'patryk27/kartoffels': 1, 'rivet-gg/opengb': 2}
+
+==========================================================================================
+#2 Bug identification by labels
+==========================================================================================
+distinct labels 4273; matched as bug 123; as no-fix 93
+top bug labels: [(43645, 'bug'), (15100, 'Bug'), (3468, 'T: Bugfix'), (2968, 'Error Report'), (2344, 'Crash'), (1999, 'type: bug'), (1557, 'T: bug'), (1267, 'Type: Bug'), (1155, '🐞 Bug'), (1045, 'category:bug'), (908, '🕷 Bug'), (888, 'type_bug'), (877, 'Issue: Bug'), (825, 'TRX bug'), (817, 'minor bug'), (716, 'Regression'), (671, 'Type-Defect'), (428, 'crash'), (414, 'OG bug'), (378, '-Bug'), (339, '🐛 bug'), (314, 'Crash or hang'), (298, 'Type-Bug'), (229, 'Minor Bug'), (226, 'status: bug')]
+top no-fix labels: [(1840, 'wontfix'), (1538, 'duplicate'), (1159, 'Duplicate'), (951, 'invalid'), (762, 'Stale'), (735, 'stale'), (395, 'Invalid-MissingHash/Commit/NotAC'), (361, "can't reproduce"), (252, '❌ Invalid'), (233, 'Invalid'), (170, 'Invalid-Duplicate'), (168, 'Invalid-Intended/WontFix/Blizzlike'), (144, '👍 Not A Bug'), (130, 'R: wontfix'), (129, "Invalid-Can't reproduce")]
+issues with exact label 'bug' (case-insensitive): 58,900
+issues with any bug label (normalised): 84,356 (26.4%)
+  of which also carry a no-fix label: 2,736
+projects using a bug label at least once: 702 / 944
+projects labelling <5% of issues: 161
+issues in projects that never use a bug label: 42,924
+title keyword match: all issues 15.4%, bug-labelled 27.7%, labelled non-bug 6.8%, unlabelled 15.9%
+ANALYSIS SET (bug label, no no-fix label): 81,620 issues in 701 projects
+
+==========================================================================================
+#5 Time to close (bug issues)
+==========================================================================================
+state: {'CLOSED': 70615, 'OPEN': 11005} open share 13.5%
+days to close (closed only): n=70615 p0=0.0 p10=0.1 p25=1.0 p50=9.2 p75=78.4 p90=374.7 p99=1743.9 p100=6405.8 mean=130.11
+closed within 1 hour: 6.9% of all bug issues; negative durations: 0
+age of open bug issues at 2025-10-12 12:12:48+00:00 (days): n=11005 p0=0.0 p25=366.0 p50=827.0 p75=1696.0 p90=2739.0 p100=8903.0 mean=1149.04
+
+==========================================================================================
+#6 Comment participants (bug issues)
+==========================================================================================
+comments on bug issues 212,631; by bots 1,886 (0.9%); missing author 2,684
+top bot authors: {'github-actions': 1430, 'stale': 276, 'issue-label-bot': 169, 'cfl-bot': 4, 'sentiment-bot': 3, 'rysolv-bot': 2, 'allcontributors': 2}
+top comment authors (check for unflagged bots): {'Regalis11': 8456, 'Rokvach': 5129, 'angband-import': 4362, 'lynxlynxlynx': 3252, 'hajimehoshi': 2503, 'pchote': 2286, 'ETLegacyTeam': 2281, 'Mailaender': 1653, 'Phergus': 1563, 'TheCycoONE': 1480, 'github-actions': 1430, 'geoffthemedio': 1365, 'bjorn': 1184, 'JayDi85': 1172, 'dgibbs64': 1122, 'itchyOwl': 1117, 'IvanSavenko': 1074, 'ihhub': 1007, 'ryzom-pipeline': 991, 'azeier': 982, 'oleg-derevenetz': 921, 'lock': 919, 'Cervator': 913, 'bradallred': 871, 'NilanthAnimosus': 847, 'hhyyrylainen': 835, 'Vezzra': 821, 'spydon': 782, 'abcdefg30': 777, 'beelee1': 765}
+participants (excl. reporter & bots): n=81620 p0=0.0 p25=0.0 p50=1.0 p75=2.0 p90=2.0 p100=27.0 mean=1.03
+distribution: {0: 33039, 1: 26981, 2: 13659, 3: 4875, 4: 1769, 5: 698, 6: 599} (6 = 6+)
+Spearman participants vs days (closed, pooled, descriptive only): 0.258
+
+==========================================================================================
+#3 Issue -> PR -> commit links (bug issues)
+==========================================================================================
+issue_pr rows 75,120; issues linked 60,887
+bug issues with >=1 linked PR: 18,403 (22.5%)
+linked PR missing from pr table: 0 of 21,874 links
+bug issues with >=1 merged linked PR: 17,497
+linked PRs per bug issue: n=18403 p0=1.0 p25=1.0 p50=1.0 p75=1.0 p90=2.0 p100=8.0 mean=1.19
+state of bug issues that have a merged PR: {'CLOSED': 17420, 'OPEN': 77}
+pr_commit sha format ok: 1.0
+merged linked PRs with commits in pr_commit: 15,835 of 15,846
+PR commits found in commit table: 29,030 of 72,405 (40.1%)
+bug issues whose fix commits (files) are available: 7,020 in 258 projects
+
+==========================================================================================
+#4 Asset files in fixes
+==========================================================================================
+fixed bug issues: 7,020; with core asset file: 377 (5.4%); with core-or-ambiguous: 559
+projects contributing core-asset fixes: 84
+fix size (distinct files): n=7020 p0=1.0 p25=1.0 p50=2.0 p75=7.0 p90=25.0 p100=11132.0 mean=23.47
+asset classes among files in fixes: {'image': 19497, 'translation': 8973, 'meta': 7090, 'scene': 2488, 'level': 1637, 'audio': 1616, 'font': 370, 'model': 201, 'video': 14}
+top extensions in fixes: {'cpp': 29630, 'cs': 21705, 'java': 20791, 'json': 19166, 'png': 16041, 'h': 15942, 'xml': 11475, 'scala': 9925, 'ts': 8679, 'hpp': 7226, 'meta': 7090, 'rb': 6062, 'rs': 4594, 'scss': 3652, 'js': 3093, 'py': 2566, 'md': 2419, 'svg': 2200, 'txt': 2194, 'properties': 2076, 'yml': 1783, 'sh': 1766, 'lua': 1728, 'tsx': 1387, 'ogg': 1350, 'yaml': 1171, 'prefab': 1067, 'c': 1035, '': 938, 'cfg': 887}
+projects with most core-asset fixes (share): {'vcmi/vcmi': 0.13, 'tobymao/18xx': 0.127, 'lichess-org/lila': 0.098, 'rptools/maptool': 0.088, 'calref/cboe': 0.034}
+non-bot comments per merged linked PR: n=20109 p0=0.0 p25=0.0 p50=0.0 p75=2.0 p90=5.0 p100=50.0 mean=1.85
+distinct commit authors (by e-mail) per fix: n=7020 p0=1.0 p25=1.0 p50=1.0 p75=1.0 p90=2.0 p100=5.0 mean=1.12 {1: 6281, 2: 656, 3: 58, 4: 25}
+
+==========================================================================================
+#3b Alternative ways to find fix commits
+==========================================================================================
+merged linked PRs 15,846: path A 6,247; path B 12,329; A or B 12,607 (79.6%)
+bug issues with fix files: A 7,020; B 13,592; A|B 13,889; C 14,074; A|B|C 24,851
+A|B fixed bug issues 13,883; with core asset 694 (5.0%) in 123 projects; core-or-ambiguous 1,166
+A|B core-asset fixes, top projects (share): {'rmc-14/rmc-14': 0.078, 'space-wizards/space-station-14': 0.076, 'vcmi/vcmi': 0.073, 'tobymao/18xx': 0.073, 'lichess-org/lila': 0.056}
+
+==========================================================================================
+#7 Concentration across projects
+==========================================================================================
+bug issues per project: n=701 p0=1.0 p25=4.0 p50=13.0 p75=51.0 p90=217.0 p100=7925.0 mean=116.43
+share of bug issues in top 1/5/10/20 projects: [np.float64(0.097), np.float64(0.257), np.float64(0.373), np.float64(0.502)]
+top 10: {'fakefishgames/barotrauma': 7925, 'openra/openra': 3756, 'magefree/mage': 3150, 'space-wizards/space-station-14': 3120, 'triplea-game/triplea': 3015, 'lichess-org/lila': 2290, 'ihhub/fheroes2': 2088, 'tobymao/18xx': 2015, 'vcmi/vcmi': 1724, 'angband/angband': 1392}
+fixed-with-files issues: top 1/5/10 share [np.float64(0.164), np.float64(0.524), np.float64(0.645)] {'tobymao/18xx': 1154, 'vcmi/vcmi': 777, 'openra/openra': 684, 'rptools/maptool': 668, 'lichess-org/lila': 397}
+
+==========================================================================================
+#8 Asset-centric committers (whole history)
+==========================================================================================
+committers (>=10 file changes) with >=60% core-asset file changes: 1,345 in 192 projects
+committers (>=10 file changes) with >=75% core-asset file changes: 587 in 147 projects
+committers (>=10 file changes) with >=90% core-asset file changes: 181 in 86 projects
+projects whose history touches CREDITS/AUTHORS/CONTRIBUTORS files: 312
+
+==========================================================================================
+#9 Games vs tools (from GitHub topics)
+==========================================================================================
+projects with a tool-like topic: 254 / 950
+most common topics: [('game', 950), ('game-development', 106), ('hacktoberfest', 89), ('game-engine', 86), ('gamedev', 72), ('multiplayer', 61), ('linux', 59), ('unity', 58), ('java', 56), ('android', 51), ('javascript', 50), ('opengl', 50), ('python', 49), ('typescript', 47), ('windows', 47), ('rust', 47), ('cpp', 45), ('engine', 42), ('csharp', 38), ('mod', 38), ('c-plus-plus', 37), ('cross-platform', 33), ('server', 33), ('c', 33), ('games', 32), ('sdl2', 31), ('minecraft', 30), ('react', 30), ('open-source', 29), ('macos', 28)]

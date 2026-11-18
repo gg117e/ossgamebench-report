@@ -1,0 +1,20 @@
+sample_id,title,author_bug,claude_bug,author,claude,rule,rule_source
+ihhub/fheroes2#4278,"Adventure map, wrong passability for large objects, trees, mountains, etc. with the Dimension Door spell",yes,yes,gameplay,gameplay,gameplay,fallback
+vcmi/vcmi#4146,Pick 3 gold in hota map 'the devil is in the detail',yes,yes,gameplay,gameplay,gameplay,fallback
+tobymao/18xx#3343,[1828.games] Merging.. Not Receiving money for selling,yes,yes,gameplay,gameplay,gameplay,fallback
+vcmi/vcmi#5848,Crash on the turn ballista,yes,yes,crash_hang,crash_hang,crash_hang,title
+corsixth/corsixth#846,Mini window 'view person at work' doesn't work anymore,yes,yes,ui,ui,ui,title
+magefree/mage#13227,"Bugs in Feather, the Redeemed",yes,yes,gameplay,gameplay,gameplay,fallback
+ihhub/fheroes2#2337,"Game settings window, the option ""world: use unique artifacts for resource affecting"" does not work",yes,yes,gameplay,gameplay,ui,title
+luanti-org/minetest_game#2216,Restore ability to rotate slab/stairs textures,yes,yes,visual,visual,visual,title
+ihhub/fheroes2#9543,"Castle screen, incorrect resource gift text",yes,yes,ui,ui,ui,title
+ihhub/fheroes2#4838,"Adventure map, path changes each time hero moves one cell",yes,yes,visual,gameplay,gameplay,fallback
+space-wizards/space-station-14#22604,NPC/Medibot exceptions,yes,yes,unknown,unknown,gameplay,fallback
+endless-sky/endless-sky#5637,Flagship on load screen can mismatch with active flagship,yes,yes,ui,ui,ui,title
+lykoss/lykos#256,Dead players sometimes not considered dead,yes,yes,gameplay,gameplay,gameplay,fallback
+vcmi/vcmi#1986,Room in army is made for Joining creatures but not for dwelling creatures,yes,yes,gameplay,gameplay,gameplay,fallback
+ihhub/fheroes2#5358,Army bar: Don't show text about redistributing troops when there is only one unit in the troop,yes,yes,ui,ui,ui,title
+tobymao/18xx#6574,[18NY] game didn’t allow a company action during SR,yes,yes,gameplay,gameplay,gameplay,fallback
+openra/openra#8623,Team set in PlayerReference is ignored for unplayable players,yes,yes,gameplay,gameplay,gameplay,fallback
+ihhub/fheroes2#5001,Incorrect allies set in games with 'Defeat the other side' victory condition (Voyage Home #4 and some other maps affected),yes,yes,gameplay,gameplay,gameplay,fallback
+tobymao/18xx#9166,1817 Loan Payoff Bug,yes,yes,gameplay,gameplay,ui,body

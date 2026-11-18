@@ -1,0 +1,147 @@
+{
+  "audit_per_category": {
+    "audio": {
+      "reference_n": 4,
+      "predicted_n": 4,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "crash_hang": {
+      "reference_n": 9,
+      "predicted_n": 10,
+      "precision": 0.8,
+      "recall": 0.889
+    },
+    "gameplay": {
+      "reference_n": 44,
+      "predicted_n": 45,
+      "precision": 0.733,
+      "recall": 0.75
+    },
+    "network": {
+      "reference_n": 0,
+      "predicted_n": 3,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    "performance": {
+      "reference_n": 0,
+      "predicted_n": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    "save_load": {
+      "reference_n": 2,
+      "predicted_n": 2,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    "tooling_other": {
+      "reference_n": 2,
+      "predicted_n": 2,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    "ui": {
+      "reference_n": 27,
+      "predicted_n": 28,
+      "precision": 0.786,
+      "recall": 0.815
+    },
+    "unknown": {
+      "reference_n": 4,
+      "predicted_n": 0,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    "visual": {
+      "reference_n": 8,
+      "predicted_n": 5,
+      "precision": 0.8,
+      "recall": 0.5
+    }
+  },
+  "development_per_category": {
+    "audio": {
+      "reference_n": 2,
+      "predicted_n": 2,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "crash_hang": {
+      "reference_n": 9,
+      "predicted_n": 11,
+      "precision": 0.818,
+      "recall": 1.0
+    },
+    "gameplay": {
+      "reference_n": 42,
+      "predicted_n": 43,
+      "precision": 0.814,
+      "recall": 0.833
+    },
+    "network": {
+      "reference_n": 0,
+      "predicted_n": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    "performance": {
+      "reference_n": 0,
+      "predicted_n": 1,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    "save_load": {
+      "reference_n": 2,
+      "predicted_n": 2,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "tooling_other": {
+      "reference_n": 9,
+      "predicted_n": 7,
+      "precision": 0.857,
+      "recall": 0.667
+    },
+    "ui": {
+      "reference_n": 23,
+      "predicted_n": 22,
+      "precision": 0.864,
+      "recall": 0.826
+    },
+    "unknown": {
+      "reference_n": 5,
+      "predicted_n": 0,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    "visual": {
+      "reference_n": 8,
+      "predicted_n": 11,
+      "precision": 0.636,
+      "recall": 0.875
+    }
+  },
+  "audit_confusion": {
+    "audio -> audio": 4,
+    "crash_hang -> crash_hang": 8,
+    "crash_hang -> save_load": 1,
+    "gameplay -> crash_hang": 2,
+    "gameplay -> gameplay": 33,
+    "gameplay -> network": 3,
+    "gameplay -> tooling_other": 2,
+    "gameplay -> ui": 4,
+    "save_load -> gameplay": 2,
+    "tooling_other -> gameplay": 2,
+    "ui -> gameplay": 3,
+    "ui -> save_load": 1,
+    "ui -> ui": 22,
+    "ui -> visual": 1,
+    "unknown -> gameplay": 4,
+    "visual -> gameplay": 1,
+    "visual -> performance": 1,
+    "visual -> ui": 2,
+    "visual -> visual": 4
+  }
+}

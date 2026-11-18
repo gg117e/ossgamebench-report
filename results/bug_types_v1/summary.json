@@ -1,0 +1,22 @@
+{
+  "game_projects": 181,
+  "game_bug_issues": 49381,
+  "game_bug_projects": 181,
+  "analysed": 10082,
+  "share_analysed": 0.2042,
+  "selection_status_game_bugs": {
+    "no_linked_pr": 34893,
+    "included": 10511,
+    "no_observed_commit": 3270,
+    "no_merged_linked_pr": 705,
+    "observed_commit_no_paths": 2
+  },
+  "bug_identification_development_sample": {
+    "n": 100,
+    "yes": 97,
+    "no": 1,
+    "unknown": 2,
+    "annotator": "Codex (LLM), development sample of samples_game_v3"
+  },
+  "note": "Symptoms from frozen keyword rules (audit accuracy 0.71, kappa 0.59 against LLM labels)."
+}

@@ -1,0 +1,402 @@
+[
+  {
+    "sample_id": "space-wizards/space-station-14#1717",
+    "is_actual_bug": "",
+    "primary_category": "",
+    "issue_domain": "",
+    "confidence": "",
+    "rationale": ""
+  },
+  {
+    "sample_id": "vcmi/vcmi#1749",
+    "is_actual_bug": "",
+    "primary_category": "",
+    "issue_domain": "",
+    "confidence": "",
+    "rationale": ""
+  },
+  {
+    "sample_id": "endless-sky/endless-sky#4880",
+    "is_actual_bug": "",
+    "primary_category": "",
+    "issue_domain": "",
+    "confidence": "",
+    "rationale": ""
+  },
+  {
+    "sample_id": "magefree/mage#8075",
+    "is_actual_bug": "",
+    "primary_category": "",
+    "issue_domain": "",
+    "confidence": "",
+    "rationale": ""
+  },
+  {
+    "sample_id": "vcmi/vcmi#3550",
+    "is_actual_bug": "",
+    "primary_category": "",
+    "issue_domain": "",
+    "confidence": "",
+    "rationale": ""
+  },
+  {
+    "sample_id": "space-wizards/space-station-14#33068",
+    "is_actual_bug": "",
+    "primary_category": "",
+    "issue_domain": "",
+    "confidence": "",
+    "rationale": ""
+  },
+  {
+    "sample_id": "tobymao/18xx#1163",
+    "is_actual_bug": "",
+    "primary_category": "",
+    "issue_domain": "",
+    "confidence": "",
+    "rationale": ""
+  },
+  {
+    "sample_id": "lichess-org/lila#11862",
+    "is_actual_bug": "",
+    "primary_category": "",
+    "issue_domain": "",
+    "confidence": "",
+    "rationale": ""
+  },
+  {
+    "sample_id": "ihhub/fheroes2#790",
+    "is_actual_bug": "",
+    "primary_category": "",
+    "issue_domain": "",
+    "confidence": "",
+    "rationale": ""
+  },
+  {
+    "sample_id": "space-wizards/space-station-14#29412",
+    "is_actual_bug": "",
+    "primary_category": "",
+    "issue_domain": "",
+    "confidence": "",
+    "rationale": ""
+  },
+  {
+    "sample_id": "ja2-stracciatella/ja2-stracciatella#1822",
+    "is_actual_bug": "",
+    "primary_category": "",
+    "issue_domain": "",
+    "confidence": "",
+    "rationale": ""
+  },
+  {
+    "sample_id": "ihhub/fheroes2#4499",
+    "is_actual_bug": "",
+    "primary_category": "",
+    "issue_domain": "",
+    "confidence": "",
+    "rationale": ""
+  },
+  {
+    "sample_id": "openra/openra#12756",
+    "is_actual_bug": "",
+    "primary_category": "",
+    "issue_domain": "",
+    "confidence": "",
+    "rationale": ""
+  },
+  {
+    "sample_id": "tobymao/18xx#5807",
+    "is_actual_bug": "",
+    "primary_category": "",
+    "issue_domain": "",
+    "confidence": "",
+    "rationale": ""
+  },
+  {
+    "sample_id": "ihhub/fheroes2#4941",
+    "is_actual_bug": "",
+    "primary_category": "",
+    "issue_domain": "",
+    "confidence": "",
+    "rationale": ""
+  },
+  {
+    "sample_id": "tobymao/18xx#3802",
+    "is_actual_bug": "",
+    "primary_category": "",
+    "issue_domain": "",
+    "confidence": "",
+    "rationale": ""
+  },
+  {
+    "sample_id": "thomas-mauran/chess-tui#117",
+    "is_actual_bug": "",
+    "primary_category": "",
+    "issue_domain": "",
+    "confidence": "",
+    "rationale": ""
+  },
+  {
+    "sample_id": "quaver/quaver#3525",
+    "is_actual_bug": "",
+    "primary_category": "",
+    "issue_domain": "",
+    "confidence": "",
+    "rationale": ""
+  },
+  {
+    "sample_id": "ihhub/fheroes2#4568",
+    "is_actual_bug": "",
+    "primary_category": "",
+    "issue_domain": "",
+    "confidence": "",
+    "rationale": ""
+  },
+  {
+    "sample_id": "movingblocks/terasology#4092",
+    "is_actual_bug": "",
+    "primary_category": "",
+    "issue_domain": "",
+    "confidence": "",
+    "rationale": ""
+  },
+  {
+    "sample_id": "lostartefacts/trx#389",
+    "is_actual_bug": "",
+    "primary_category": "",
+    "issue_domain": "",
+    "confidence": "",
+    "rationale": ""
+  },
+  {
+    "sample_id": "ihhub/fheroes2#4622",
+    "is_actual_bug": "",
+    "primary_category": "",
+    "issue_domain": "",
+    "confidence": "",
+    "rationale": ""
+  },
+  {
+    "sample_id": "theassemblyarmada/thyme#533",
+    "is_actual_bug": "",
+    "primary_category": "",
+    "issue_domain": "",
+    "confidence": "",
+    "rationale": ""
+  },
+  {
+    "sample_id": "tobymao/18xx#11886",
+    "is_actual_bug": "",
+    "primary_category": "",
+    "issue_domain": "",
+    "confidence": "",
+    "rationale": ""
+  },
+  {
+    "sample_id": "space-wizards/space-station-14#3056",
+    "is_actual_bug": "",
+    "primary_category": "",
+    "issue_domain": "",
+    "confidence": "",
+    "rationale": ""
+  },
+  {
+    "sample_id": "lichess-org/lila#11617",
+    "is_actual_bug": "",
+    "primary_category": "",
+    "issue_domain": "",
+    "confidence": "",
+    "rationale": ""
+  },
+  {
+    "sample_id": "re-ss3d/ss3d#762",
+    "is_actual_bug": "",
+    "primary_category": "",
+    "issue_domain": "",
+    "confidence": "",
+    "rationale": ""
+  },
+  {
+    "sample_id": "revolutionary-games/thrive#2814",
+    "is_actual_bug": "",
+    "primary_category": "",
+    "issue_domain": "",
+    "confidence": "",
+    "rationale": ""
+  },
+  {
+    "sample_id": "re-ss3d/ss3d#1036",
+    "is_actual_bug": "",
+    "primary_category": "",
+    "issue_domain": "",
+    "confidence": "",
+    "rationale": ""
+  },
+  {
+    "sample_id": "ihhub/fheroes2#9141",
+    "is_actual_bug": "",
+    "primary_category": "",
+    "issue_domain": "",
+    "confidence": "",
+    "rationale": ""
+  },
+  {
+    "sample_id": "vcmi/vcmi#4577",
+    "is_actual_bug": "",
+    "primary_category": "",
+    "issue_domain": "",
+    "confidence": "",
+    "rationale": ""
+  },
+  {
+    "sample_id": "jdoleary/spellmasons#767",
+    "is_actual_bug": "",
+    "primary_category": "",
+    "issue_domain": "",
+    "confidence": "",
+    "rationale": ""
+  },
+  {
+    "sample_id": "space-wizards/space-station-14#29029",
+    "is_actual_bug": "",
+    "primary_category": "",
+    "issue_domain": "",
+    "confidence": "",
+    "rationale": ""
+  },
+  {
+    "sample_id": "ihhub/fheroes2#4538",
+    "is_actual_bug": "",
+    "primary_category": "",
+    "issue_domain": "",
+    "confidence": "",
+    "rationale": ""
+  },
+  {
+    "sample_id": "lostartefacts/trx#1240",
+    "is_actual_bug": "",
+    "primary_category": "",
+    "issue_domain": "",
+    "confidence": "",
+    "rationale": ""
+  },
+  {
+    "sample_id": "tobymao/18xx#2151",
+    "is_actual_bug": "",
+    "primary_category": "",
+    "issue_domain": "",
+    "confidence": "",
+    "rationale": ""
+  },
+  {
+    "sample_id": "pioneerspacesim/pioneer#344",
+    "is_actual_bug": "",
+    "primary_category": "",
+    "issue_domain": "",
+    "confidence": "",
+    "rationale": ""
+  },
+  {
+    "sample_id": "pokeclicker/pokeclicker#16",
+    "is_actual_bug": "",
+    "primary_category": "",
+    "issue_domain": "",
+    "confidence": "",
+    "rationale": ""
+  },
+  {
+    "sample_id": "ihhub/fheroes2#8910",
+    "is_actual_bug": "",
+    "primary_category": "",
+    "issue_domain": "",
+    "confidence": "",
+    "rationale": ""
+  },
+  {
+    "sample_id": "kemokemo/kuronan-dash#42",
+    "is_actual_bug": "",
+    "primary_category": "",
+    "issue_domain": "",
+    "confidence": "",
+    "rationale": ""
+  },
+  {
+    "sample_id": "revolutionary-games/thrive#1236",
+    "is_actual_bug": "",
+    "primary_category": "",
+    "issue_domain": "",
+    "confidence": "",
+    "rationale": ""
+  },
+  {
+    "sample_id": "tobymao/18xx#2349",
+    "is_actual_bug": "",
+    "primary_category": "",
+    "issue_domain": "",
+    "confidence": "",
+    "rationale": ""
+  },
+  {
+    "sample_id": "vcmi/vcmi#3203",
+    "is_actual_bug": "",
+    "primary_category": "",
+    "issue_domain": "",
+    "confidence": "",
+    "rationale": ""
+  },
+  {
+    "sample_id": "space-wizards/space-station-14#10590",
+    "is_actual_bug": "",
+    "primary_category": "",
+    "issue_domain": "",
+    "confidence": "",
+    "rationale": ""
+  },
+  {
+    "sample_id": "space-wizards/space-station-14#10393",
+    "is_actual_bug": "",
+    "primary_category": "",
+    "issue_domain": "",
+    "confidence": "",
+    "rationale": ""
+  },
+  {
+    "sample_id": "corsixth/corsixth#451",
+    "is_actual_bug": "",
+    "primary_category": "",
+    "issue_domain": "",
+    "confidence": "",
+    "rationale": ""
+  },
+  {
+    "sample_id": "revolutionary-games/thrive#5211",
+    "is_actual_bug": "",
+    "primary_category": "",
+    "issue_domain": "",
+    "confidence": "",
+    "rationale": ""
+  },
+  {
+    "sample_id": "tobymao/18xx#6262",
+    "is_actual_bug": "",
+    "primary_category": "",
+    "issue_domain": "",
+    "confidence": "",
+    "rationale": ""
+  },
+  {
+    "sample_id": "colobot/colobot#1584",
+    "is_actual_bug": "",
+    "primary_category": "",
+    "issue_domain": "",
+    "confidence": "",
+    "rationale": ""
+  },
+  {
+    "sample_id": "space-wizards/space-station-14#2133",
+    "is_actual_bug": "",
+    "primary_category": "",
+    "issue_domain": "",
+    "confidence": "",
+    "rationale": ""
+  }
+]

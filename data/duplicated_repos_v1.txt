@@ -1,0 +1,25 @@
+# 20 repositories listed as `duplicated_repos_v1` in the authors' notebook
+# analysis/analysis-2.ipynb inside analysis.zip of Zenodo record 18359123 (v3, 2026-01-23,
+# md5 of analysis.zip: 8c6155a7603b391ded1991caf69ed6b6). 970 - 20 = 950 (the count in the paper).
+# In that notebook the list is only applied to the README/genre analysis; check whether
+# these projects are present in the downloaded tables before deciding to drop them.
+Dragon-Fox-Collective/SBEPIS
+lVlyke/starfield-mod-loader
+kyh/vibed-games
+lexi-the-cute/catgirl-engine
+benpollarduk/BP.AdventureFramework
+MathiasGruber/TheNinjaRPG
+alcalyn/hex
+sefinek24/genshin-impact-reshade
+TeamFluXis/fluXis
+alextangxiao/tengine
+srmeier/knightonline
+zerulight/erupe
+dylan-power/dinosaur-exploder
+minetest/minetest_game
+mihailris/voxelengine-cpp
+LostArtefacts/TR1X
+joshzcold/cold-family-feud
+fundament-software/feathergui
+themeparkworld/opentpw
+draftbot-a-discord-adventure/draftbot

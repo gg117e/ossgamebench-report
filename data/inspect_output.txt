@@ -1,0 +1,122 @@
+====================================================================================================
+commit_metadata.parquet: 970 rows, 1 row groups
+project: string
+file_location: string
+__index_level_0__: int64
+-- schema metadata --
+pandas: '{"index_columns": ["__index_level_0__"], "column_indexes": [{"na' + 587
+                       project                                                 file_location
+0  chesterbr/minitruco-android  OSSGameBench/commits/commits|chesterbr|minitruco-android....
+1      movingblocks/terasology  OSSGameBench/commits/commits|movingblocks|terasology.parquet
+2             scoutant/blokish         OSSGameBench/commits/commits|scoutant|blokish.parquet
+====================================================================================================
+issue.parquet: 326,182 rows, 1 row groups
+project: string
+number: int64
+contributor: string
+title: string
+body: string
+labels: list<element: string>
+  child 0, element: string
+state: string
+created_at: string
+closed_at: string
+-- schema metadata --
+pandas: '{"index_columns": [], "column_indexes": [], "columns": [{"name":' + 1104
+                       project  number   contributor                                                         title                                                          body labels   state            created_at             closed_at
+0  chesterbr/minitruco-android       1     chesterbr           Mão de 10 no Truco Mineiro aparece como "mão de 11"                                                                [bug]  CLOSED  2012-12-09T02:39:04Z  2023-05-12T03:52:11Z
+1  chesterbr/minitruco-android       2     chesterbr  Mão de 10 no Truco Mineiro deveria esconder o botão de truco                                                                [bug]  CLOSED  2012-12-09T02:39:37Z  2023-05-11T22:39:32Z
+2  chesterbr/minitruco-android       5  thedanheller                               "parceiro" aceita truco perdido  Não sei se aqui é o melhor local pra esse tipo de feedbac...     []  CLOSED  2016-01-29T19:57:52Z  2023-02-12T21:51:43Z
+====================================================================================================
+issue_comment.parquet: 853,302 rows, 1 row groups
+project: string
+issue_number: int64
+contributor: string
+body: string
+-- schema metadata --
+pandas: '{"index_columns": [], "column_indexes": [], "columns": [{"name":' + 540
+                       project  issue_number contributor                                                              body
+0  chesterbr/minitruco-android             1   chesterbr                                                Resolvida por #64 
+1  chesterbr/minitruco-android             2   ataaltair                      Esse jogo e muito legal ......parabensssss\n
+2  chesterbr/minitruco-android             2   chesterbr  Resolvida por #58 \r\n\r\ncc @ataaltair (Espero que o Truco M...
+====================================================================================================
+issue_pr.parquet: 78,060 rows, 1 row groups
+project: string
+issue_number: int64
+pr_number: int64
+-- schema metadata --
+pandas: '{"index_columns": [], "column_indexes": [], "columns": [{"name":' + 425
+                           project  issue_number  pr_number
+0  00-evan/shattered-pixel-dungeon           540        545
+1              26F-Studio/Techmino            24         21
+2              26F-Studio/Techmino            64         65
+====================================================================================================
+pr.parquet: 396,048 rows, 1 row groups
+project: string
+number: int64
+contributor: string
+title: string
+body: string
+labels: list<element: string>
+  child 0, element: string
+state: string
+created_at: string
+closed_at: string
+merged_at: string
+-- schema metadata --
+pandas: '{"index_columns": [], "column_indexes": [], "columns": [{"name":' + 1222
+                       project  number    contributor                      title                                                            body labels   state            created_at             closed_at             merged_at
+0  chesterbr/minitruco-android       3      chesterbr          Fixing minor bugs    - Added menu button for stupid mobile phones that hide it...     []  MERGED  2015-12-08T04:06:25Z  2015-12-08T04:07:36Z  2015-12-08T04:07:36Z
+1  chesterbr/minitruco-android       4        cabello                   Fix typo                                  One missing letter. :angel: \n     []  MERGED  2015-12-08T14:15:45Z  2015-12-08T14:39:16Z  2015-12-08T14:39:16Z
+2  chesterbr/minitruco-android       6  ravasconcelos  Rodolfo/melhoria conexao1  Olá,\n\nModifiquei como o cliente Bluetooh busca os servido...     []  MERGED  2016-08-05T19:26:24Z  2016-08-07T23:23:38Z  2016-08-07T23:23:38Z
+====================================================================================================
+pr_comment.parquet: 689,749 rows, 1 row groups
+project: string
+pr_number: int64
+contributor: string
+body: string
+-- schema metadata --
+pandas: '{"index_columns": [], "column_indexes": [], "columns": [{"name":' + 534
+                       project  pr_number contributor                                                            body
+0  chesterbr/minitruco-android          6   chesterbr  Rodolfo,\n\nObrigado pela contribuição, o código parece faz...
+1  chesterbr/minitruco-android          6   chesterbr    Ok, fiz um teste aqui com celulares e tablets relativamen...
+2  chesterbr/minitruco-android          6   chesterbr    De fato, não apenas é mais rápido, mas um Sansung que não...
+====================================================================================================
+pr_commit.parquet: 1,565,625 rows, 2 row groups
+project: string
+pr_number: int64
+commit_sha: string
+-- schema metadata --
+pandas: '{"index_columns": [], "column_indexes": [], "columns": [{"name":' + 425
+                       project  pr_number                                commit_sha
+0  chesterbr/minitruco-android          3  cdc888472a789abaf910cfbf7f043c2554c66803
+1  chesterbr/minitruco-android          3  4a8588d1fc56cdf0a5b086e25ea06b40993bbb13
+2  chesterbr/minitruco-android          3  e553a26dea8adda7c8b0124469ada7fdae2e4d31
+====================================================================================================
+project.parquet: 970 rows, 1 row groups
+project: string
+is_fork: bool
+languages: string
+topics: string
+created_at: timestamp[ns]
+size: int64
+readme_content: string
+__index_level_0__: int64
+-- schema metadata --
+pandas: '{"index_columns": ["__index_level_0__"], "column_indexes": [{"na' + 1162
+                       project  is_fork                                                     languages                                                        topics          created_at    size                                                  readme_content
+0  chesterbr/minitruco-android    False           {"Java":515464,"Shell":1702,"Rich Text Format":928}                                  android;game;java;jogo;truco 2010-11-08 02:28:12   16084  # miniTruco Android\n\n[<img alt="screenshot do jogo" align...
+1      movingblocks/terasology    False  {"Java":7113548,"Groovy":55535,"GLSL":23786,"Kotlin":1471...  game;game-development;game-engine;game-engine-3d;gamedev;... 2011-03-04 03:49:19  306012    <p align="center"><img src="./docs/images/terasology-logo...
+2             scoutant/blokish    False                                    {"Java":83692,"Shell":101}                                    board-game-blokus;dnd;game 2011-04-20 01:31:53     898  Blokish\n=======\n![blokish](http://blokish.scoutant.org/bl...
+====================================================================================================
+commit files: 973; total uncompressed 81.5 GB; median 8.3 MB; largest 8.56 GB
+    8.56 GB  OSSGameBench/commits/commits|4ian|gdevelop|1.parquet
+    4.40 GB  OSSGameBench/commits/commits|rplacelive|game.parquet
+    2.30 GB  OSSGameBench/commits/commits|foundryvtt-starfinder|foundryvtt-starfinder.parquet
+    2.25 GB  OSSGameBench/commits/commits|lo-th|phy.parquet
+    1.81 GB  OSSGameBench/commits/commits|4ian|gdevelop|2.parquet
+    1.69 GB  OSSGameBench/commits/commits|azerothcore|azerothcore-wotlk.parquet
+    1.45 GB  OSSGameBench/commits/commits|caveman2cosmos|caveman2cosmos.parquet
+    1.41 GB  OSSGameBench/commits/commits|space-syndicate|space-station-14.parquet
+    1.40 GB  OSSGameBench/commits/commits|zengm-games|zengm.parquet
+    1.21 GB  OSSGameBench/commits/commits|impstation|imp-station-14.parquet

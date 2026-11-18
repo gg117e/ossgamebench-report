@@ -1,0 +1,33 @@
+{
+  "rules": "scripts/symptom_rules.py (frozen after development)",
+  "fallback": "gameplay",
+  "development_codex_labels": {
+    "n": 100,
+    "accuracy": 0.8,
+    "kappa": 0.731,
+    "macro_f1_reference_categories": 0.757,
+    "n_actual_bug_known_category": 93,
+    "accuracy_actual_bug_known_category": 0.849,
+    "kappa_actual_bug_known_category": 0.794,
+    "source_of_prediction": {
+      "title": 45,
+      "fallback": 43,
+      "body": 12
+    }
+  },
+  "audit_claude_labels": {
+    "n": 100,
+    "accuracy": 0.71,
+    "kappa": 0.592,
+    "macro_f1_reference_categories": 0.5,
+    "n_actual_bug_known_category": 95,
+    "accuracy_actual_bug_known_category": 0.737,
+    "kappa_actual_bug_known_category": 0.627,
+    "source_of_prediction": {
+      "fallback": 45,
+      "title": 44,
+      "body": 11
+    }
+  },
+  "note": "Reference labels are LLM labels, not human ground truth. Per-category audit details are sealed until the first author's blind labels are complete."
+}

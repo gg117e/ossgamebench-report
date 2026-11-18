@@ -1,0 +1,10 @@
+{
+  "sealed_file": "C:/Users/<user>/ossgamebench-sealed/samples_game_v3_audit_llm_labels.jsonl (outside the repository; script 15 is there too)",
+  "rows": 100,
+  "sha256": "3b7434ba3ce3b12a3aae2c0263d112ed8b9f0d01212cf6f4ed0ccec9bbe572f1",
+  "annotator": "Claude",
+  "model_id": "claude-opus-5-5",
+  "date_jst": "2026-11-13",
+  "codebook": "v1-2026-11-13",
+  "note": "Commit the labels after the first author finishes human_answers.json."
+}

@@ -1,0 +1,231 @@
+{
+  "pr_status": {
+    "landing_unique": 12084,
+    "no_landing": 326,
+    "landing_ambiguous": 153,
+    "landing_equivalent": 44
+  },
+  "pr_landing_kind": {
+    "squash_like": 6381,
+    "gh_merge": 5879,
+    "": 326,
+    "gh_merge,squash_like": 21
+  },
+  "issue_final_status": {
+    "all_landing": 13333,
+    "none": 516,
+    "partial": 34
+  },
+  "pr_level_by_scope": {
+    "all": {
+      "merged_prs": 12607,
+      "final_rate_on_landed": {
+        "n": 12128,
+        "with_test": 1024,
+        "rate": 0.0844
+      },
+      "v1_union_rate_on_landed": {
+        "n": 12128,
+        "with_test": 1170,
+        "rate": 0.0965
+      }
+    },
+    "engine_tool": {
+      "merged_prs": 2838,
+      "final_rate_on_landed": {
+        "n": 2742,
+        "with_test": 455,
+        "rate": 0.1659
+      },
+      "v1_union_rate_on_landed": {
+        "n": 2742,
+        "with_test": 527,
+        "rate": 0.1922
+      }
+    },
+    "game": {
+      "merged_prs": 9434,
+      "final_rate_on_landed": {
+        "n": 9063,
+        "with_test": 499,
+        "rate": 0.0551
+      },
+      "v1_union_rate_on_landed": {
+        "n": 9063,
+        "with_test": 568,
+        "rate": 0.0627
+      }
+    },
+    "mixed": {
+      "merged_prs": 231,
+      "final_rate_on_landed": {
+        "n": 223,
+        "with_test": 46,
+        "rate": 0.2063
+      },
+      "v1_union_rate_on_landed": {
+        "n": 223,
+        "with_test": 51,
+        "rate": 0.2287
+      }
+    },
+    "unknown": {
+      "merged_prs": 104,
+      "final_rate_on_landed": {
+        "n": 100,
+        "with_test": 24,
+        "rate": 0.24
+      },
+      "v1_union_rate_on_landed": {
+        "n": 100,
+        "with_test": 24,
+        "rate": 0.24
+      }
+    }
+  },
+  "by_scope": {
+    "all": {
+      "issues": 13883,
+      "projects": 348,
+      "v1_union_rate_all_issues": {
+        "n": 13883,
+        "with_test": 1445,
+        "rate": 0.1041
+      },
+      "v1_union_rate_on_all_landing": {
+        "n": 13333,
+        "with_test": 1379,
+        "rate": 0.1034
+      },
+      "final_rate_on_all_landing": {
+        "n": 13333,
+        "with_test": 1221,
+        "rate": 0.0916
+      },
+      "final_projects": 337,
+      "fallback_rate_on_none": {
+        "n": 315,
+        "with_test": 36,
+        "rate": 0.1143
+      },
+      "v1_true_final_false": 158,
+      "v1_false_final_true": 0
+    },
+    "engine_tool": {
+      "issues": 2984,
+      "projects": 125,
+      "v1_union_rate_all_issues": {
+        "n": 2984,
+        "with_test": 603,
+        "rate": 0.2021
+      },
+      "v1_union_rate_on_all_landing": {
+        "n": 2878,
+        "with_test": 584,
+        "rate": 0.2029
+      },
+      "final_rate_on_all_landing": {
+        "n": 2878,
+        "with_test": 509,
+        "rate": 0.1769
+      },
+      "final_projects": 121,
+      "fallback_rate_on_none": {
+        "n": 56,
+        "with_test": 5,
+        "rate": 0.0893
+      },
+      "v1_true_final_false": 75,
+      "v1_false_final_true": 0
+    },
+    "game": {
+      "issues": 10511,
+      "projects": 181,
+      "v1_union_rate_all_issues": {
+        "n": 10511,
+        "with_test": 741,
+        "rate": 0.0705
+      },
+      "v1_union_rate_on_all_landing": {
+        "n": 10082,
+        "with_test": 703,
+        "rate": 0.0697
+      },
+      "final_rate_on_all_landing": {
+        "n": 10082,
+        "with_test": 626,
+        "rate": 0.0621
+      },
+      "final_projects": 177,
+      "fallback_rate_on_none": {
+        "n": 251,
+        "with_test": 26,
+        "rate": 0.1036
+      },
+      "v1_true_final_false": 77,
+      "v1_false_final_true": 0
+    },
+    "mixed": {
+      "issues": 282,
+      "projects": 20,
+      "v1_union_rate_all_issues": {
+        "n": 282,
+        "with_test": 75,
+        "rate": 0.266
+      },
+      "v1_union_rate_on_all_landing": {
+        "n": 274,
+        "with_test": 71,
+        "rate": 0.2591
+      },
+      "final_rate_on_all_landing": {
+        "n": 274,
+        "with_test": 65,
+        "rate": 0.2372
+      },
+      "final_projects": 18,
+      "fallback_rate_on_none": {
+        "n": 6,
+        "with_test": 3,
+        "rate": 0.5
+      },
+      "v1_true_final_false": 6,
+      "v1_false_final_true": 0
+    },
+    "unknown": {
+      "issues": 106,
+      "projects": 22,
+      "v1_union_rate_all_issues": {
+        "n": 106,
+        "with_test": 26,
+        "rate": 0.2453
+      },
+      "v1_union_rate_on_all_landing": {
+        "n": 99,
+        "with_test": 21,
+        "rate": 0.2121
+      },
+      "final_rate_on_all_landing": {
+        "n": 99,
+        "with_test": 21,
+        "rate": 0.2121
+      },
+      "final_projects": 21,
+      "fallback_rate_on_none": {
+        "n": 2,
+        "with_test": 2,
+        "rate": 1.0
+      },
+      "v1_true_final_false": 0,
+      "v1_false_final_true": 0
+    }
+  },
+  "inputs_and_code": {
+    "C:\\Users\\<user>\\ossgamebench-data\\interim\\cohort_v1\\pr_commit_refs.parquet": "1283dce083704077abafd30907bbd0ea58cfdb2f388bac4669b3ac60e796706a",
+    "C:\\Users\\<user>\\ossgamebench-data\\interim\\cohort_v1\\commit_paths.parquet": "f784d1bafedf9d2fc61ad5024959c83732a287c0b6046e591cff2f5f9a73b467",
+    "C:\\Users\\<user>\\ossgamebench-data\\interim\\cohort_v1\\bug_issue_pr.parquet": "a85646b4cfd4f474151208b7e3fb45a641ba693f80a87f738e7b9b1bd636e9c2",
+    "C:\\Users\\<user>\\ossgamebench-data\\interim\\game_scope_v1\\scoped_cohort_index.parquet": "2b12eb4f9bf734ba2c7ea86d622bd39d601fc738a5bd37286e7db5cc203aaa90",
+    "<repo>\\scripts\\11_final_pr_diff.py": "ed121509190179c6c77e52c8d4a71bd173cc581ff9b1d655c0ff7d32bccafa09"
+  },
+  "status": "final_diff_by_message_markers_not_yet_validated_against_github"
+}

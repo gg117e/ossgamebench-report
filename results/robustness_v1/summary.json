@@ -1,0 +1,32 @@
+{
+  "n_fixes": 10082,
+  "within_project": {
+    "projects": 56,
+    "fixes": 7687,
+    "boot_reps_ok": 1000
+  },
+  "audio_test_changing": {
+    "vcmi/vcmi": 2
+  },
+  "share_test_fixes_from_diffs_over_50": 0.1597444089456869,
+  "rate_without_large_diffs_all": 0.056107598113018166,
+  "step5": {
+    "included": 10082,
+    "excluded": 429,
+    "union_rate_included": 0.0697282285260861,
+    "union_rate_excluded": 0.08857808857808858,
+    "top_projects_excluded": {
+      "rmc-14/rmc-14": 134,
+      "movingblocks/terasology": 85,
+      "pioneerspacesim/pioneer": 55
+    }
+  },
+  "files": [
+    "rate_by_rule_source.csv",
+    "rate_without_large_diffs.csv",
+    "rq1_gee.csv",
+    "rq2_project_level.csv",
+    "rq2_spec_grid.csv",
+    "within_project_nontest.csv"
+  ]
+}

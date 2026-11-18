@@ -1,0 +1,38 @@
+[
+  {
+    "pk":"pokeclicker\/pokeclicker",
+    "issue_number":556,
+    "title":"[BUG] Currencies can be 0",
+    "n_observed_commits":1
+  },
+  {
+    "pk":"pixijs\/pixijs",
+    "issue_number":10673,
+    "title":"Bug: Multiple page for BitmapFont not working",
+    "n_observed_commits":1
+  },
+  {
+    "pk":"gameservermanagers\/linuxgsm",
+    "issue_number":2702,
+    "title":"Java is not included as a dependency in the Wurm:Unlimited server dependency list",
+    "n_observed_commits":1
+  },
+  {
+    "pk":"hackclub\/sprig",
+    "issue_number":865,
+    "title":"Number of applications displayed doesn't match reality",
+    "n_observed_commits":1
+  },
+  {
+    "pk":"hackclub\/sprig",
+    "issue_number":885,
+    "title":"Migration doesn't work on Firefox and Safari",
+    "n_observed_commits":1
+  },
+  {
+    "pk":"lostartefacts\/trx",
+    "issue_number":338,
+    "title":"Bug: Lara holds pistols between levels",
+    "n_observed_commits":1
+  }
+]

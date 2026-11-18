@@ -1,0 +1,65 @@
+{
+  "status": "candidate_cohort_built_not_semantically_validated",
+  "metrics": {
+    "issues_after_project_filter": 319709,
+    "eligible_bug_issues": 81620,
+    "included_issues": 13883,
+    "included_projects": 348,
+    "issues_with_observed_commit": 13889,
+    "test_candidate_issues": 1445,
+    "strict_marker_included_issues": 13862,
+    "selection_status": {
+      "no_linked_pr": 63217,
+      "included": 13883,
+      "no_observed_commit": 3608,
+      "no_merged_linked_pr": 906,
+      "observed_commit_no_paths": 6
+    },
+    "duplicate_bug_link_rows_removed": 2535,
+    "duplicate_commit_rows_removed": 2,
+    "merged_prs": 15846,
+    "shared_prs": 1194,
+    "issues_with_multiple_merged_prs": 252,
+    "issues_sharing_a_merged_pr": 2434,
+    "pr_commit_refs": 63035,
+    "unobserved_pr_commit_refs": 32821
+  },
+  "tables_dir": "C:\\Users\\<user>\\ossgamebench-data\\interim\\cohort_v1",
+  "inputs_and_code": {
+    "C:\\Users\\<user>\\ossgamebench-data\\raw\\tables\\issue.parquet": {
+      "bytes": 142056227,
+      "sha256": "ab8b6da36e20e2cfadb42fb288aa82617713cbeb8641a736d681fb5252a5eccd"
+    },
+    "C:\\Users\\<user>\\ossgamebench-data\\raw\\tables\\pr.parquet": {
+      "bytes": 135689838,
+      "sha256": "a975a48acd205a25a66d6b2aaa56095b544a8d5e2f6ed0120f877f990e8a933e"
+    },
+    "C:\\Users\\<user>\\ossgamebench-data\\raw\\tables\\issue_pr.parquet": {
+      "bytes": 464477,
+      "sha256": "fa762f1e7c2b3a8e26122642f4b32c1d74b4fa109a1a170a3ce1ab686424ff16"
+    },
+    "C:\\Users\\<user>\\ossgamebench-data\\raw\\tables\\pr_commit.parquet": {
+      "bytes": 59222191,
+      "sha256": "7dddb5c947d180b5c09013945bb9254b34e0d462f712916e2c629ec407e55c22"
+    },
+    "C:\\Users\\<user>\\ossgamebench-data\\raw\\tables\\project.parquet": {
+      "bytes": 3148226,
+      "sha256": "5b11cb7116ff81c9592cab4fcf7036c97154efb92194acda6a96b6b214d03d4c"
+    },
+    "C:\\Users\\<user>\\ossgamebench-data\\interim\\commits_slim.parquet": {
+      "bytes": 311194635,
+      "sha256": "e600029d117f228dc8faedced4f5f15d65d980a44c1d949d7716e530987d6e7f"
+    },
+    "<repo>\\scripts\\07_build_fix_cohort.py": {
+      "bytes": 14096,
+      "sha256": "1c8721198b00610eaf599e4ef285cf3facdec0c5ee6e3299b6e406326a77dc73"
+    },
+    "<repo>\\scripts\\common.py": {
+      "bytes": 4525,
+      "sha256": "2bb3b3519c68e9444d98695816cc660a45e326454fe1ef31f9f011afbf6666a4"
+    }
+  },
+  "test_rule": "pilot_path_rule_unvalidated",
+  "broad_message_pattern": "\\(#(\\d+)\\)|Merge pull request #(\\d+)",
+  "strict_first_line_pattern": "^Merge pull request #(\\d+)\\b|\\(#(\\d+)\\)\\s*$"
+}

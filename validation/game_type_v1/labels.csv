@@ -1,0 +1,178 @@
+pk,game_type,web,idle,evidence,annotator,model_id,date_jst,status
+26f-studio/techmino,continuous,False,False,falling-block (Tetris-like),Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+3ur/simpsons-hit-run,continuous,False,False,action driving game,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+acmepjz/meandmyshadow,continuous,False,False,puzzle platformer,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+aehmttw/tanks,continuous,False,False,real-time tank shooter,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+agateau/pixelwheels,continuous,False,False,racing,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+ainilili/ratel,discrete,False,False,command-line card game,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+akarnokd/open-ig,continuous,False,False,real-time 4X (Imperium Galactica),Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+angband/angband,discrete,False,False,roguelike,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+antfu/handle,discrete,True,False,Wordle-like,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+anthonytornetta/cosmos,continuous,False,False,real-time block space game,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+aottg-2/aottg-2,continuous,False,False,real-time action (AoTTG),Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+arcomage/arcomage-hd,discrete,True,False,card game in browser,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+arianne/stendhal,continuous,False,False,online RPG,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+ashteki/ashteki,discrete,True,False,card game website,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+attnam/ivan,discrete,False,False,roguelike,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+avaraline/avara,continuous,False,False,networked FPS,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+bibliothecadao/eternum,discrete,True,False,on-chain strategy (transactions),Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+big-onche/tesseract-sauerbraten,continuous,False,False,FPS,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+bithack/principia,continuous,False,False,physics sandbox,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+boostcampwm-2024/web30-stop-troublepainter,continuous,True,False,real-time drawing quiz (browser),Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+bradharding/doomretro,continuous,False,False,Doom source port,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+brainicism/kmq_discord,discrete,True,False,song-guessing quiz Discord bot (rounds),Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+bstnfrmry/hanabi,discrete,True,False,card game website,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+bvschaik/julius,continuous,False,False,city builder sim (Caesar III),Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+bzflag-dev/bzflag,continuous,False,False,3D tank shooter,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+c7-game/prototype,discrete,False,False,turn-based 4X (Civ-like),Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+calcitem/sanmill,discrete,False,False,mill board game,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+canadianveggie/spellie,discrete,True,False,Wordle-like,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+caveman2cosmos/caveman2cosmos,discrete,False,False,Civilization IV mod,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+charliebrowncharacter/countryzinho.com,discrete,True,False,timed country naming (web),Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+chesterbr/minitruco-android,discrete,False,False,truco card game,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+chrisneedham24/microcosm,discrete,False,False,turn-based 4X,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+colobot/colobot,continuous,False,False,real-time programming strategy,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+conorsheehan1/spelling-bee,discrete,True,False,word puzzle,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+cookgreen/yuris-revenge,continuous,False,False,RTS mod (OpenRA),Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+corsixth/corsixth,continuous,False,False,real-time business sim (Theme Hospital),Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+cozuya/secret-hitler,discrete,True,False,social deduction board game website,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+crazy-marvin/ellathegame,continuous,False,False,endless runner,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+crownicles/crownicles,discrete,True,False,text adventure Discord bot,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+cuttle-cards/cuttle,discrete,True,False,pvp card game web app,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+cwtickle/danoniplus,continuous,True,False,rhythm game in browser,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+cxong/cdogs-sdl,continuous,False,False,run-and-gun,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+deathkiller/jazz2-native,continuous,False,False,platformer,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+delaford/game,continuous,True,False,online real-time 2D RPG,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+devapromix/elinor,discrete,False,False,roguelike,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+devgianlu/pretendyourexyzzyandroid,discrete,False,False,online card game client,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+dexterhuang/cybercodeonline,discrete,True,True,AFK/idle text MMORPG,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+edm-esi-deep-minds/a-mindful-trip---erner-studio,discrete,False,False,cooperative board game,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+eesast/thuai7,continuous,False,False,real-time AI competition game,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+ekolis/freee,discrete,False,False,turn-based 4X (Space Empires IV),Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+endless-sky/endless-sky,continuous,False,False,real-time space exploration/combat,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+erinmaus/itsyscape,continuous,False,False,real-time RPG,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+eternagame/eternajs,discrete,True,False,RNA design puzzle in browser,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+etlegacy/etlegacy,continuous,False,False,FPS,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+etternagame/etterna,continuous,False,False,rhythm game,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+ezioleq/portaless,continuous,False,False,3D puzzle (Portal-like),Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+fabiangreffrath/crispy-doom,continuous,False,False,Doom source port,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+fabiangreffrath/woof,continuous,False,False,Doom source port,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+factorio-biter-battles/factorio-biter-battles,continuous,False,False,real-time Factorio scenario,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+fishfolk/jumpy,continuous,False,False,2D shooter/brawler,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+flowit-game/flowit,discrete,False,False,puzzle,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+frankprojects/ultimatewarfare,discrete,True,False,text browser strategy,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+freeorion/freeorion,discrete,False,False,turn-based 4X,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+fruktus/quadradiuspreservationproject,discrete,True,False,turn-based board game server,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+gemrb/gemrb,continuous,False,False,"Infinity Engine, real-time with pause",Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+geoguess/geoguess,discrete,True,False,location guessing in rounds (browser),Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+gothic-unzenity-project/gothic-unzenity,continuous,False,False,VR action RPG,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+gothicvrproject/gothicvr,continuous,False,False,VR action RPG,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+goto-bus-stop/wikibattle,discrete,True,False,link-clicking race,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+hackerspace-ntnu/red-planet-rampage,continuous,False,False,arena shooter,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+hamvocke/doppelkopf,discrete,True,False,card game in browser,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+hanabi-live/hanabi-live,discrete,True,False,cooperative card game website,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+helco/zzio,continuous,False,False,real-time 3D adventure,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+humancompatibleai/tensor-trust,discrete,True,False,prompt-injection web game,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+hyeokjinkang/urlate,continuous,True,False,rhythm game in browser,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+ihhub/fheroes2,discrete,False,False,turn-based strategy (HoMM II),Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+infinite-chess/infinitechess.org,discrete,True,False,chess variant website,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+inventiverhythm/fluxis,continuous,False,False,rhythm game,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+ipol-studio/cyanstars,continuous,False,False,rhythm game,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+ja2-stracciatella/ja2-stracciatella,mixed,False,False,"real-time exploration, turn-based tactical combat",Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+jacoders/openjk,continuous,False,False,FPS/TPS,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+jakobharder/burntime,discrete,False,False,turn-based strategy,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+jdoleary/spellmasons,discrete,False,False,turn-based tactical roguelike,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+jeremyckahn/farmhand,discrete,True,False,day-based farming management (browser),Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+joaomanaia/newquiz,discrete,False,False,quiz,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+joshzcold/friendly-feud,discrete,True,False,quiz show in rounds (web),Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+jvondermarck/dinosaur-exploder,continuous,False,False,shoot 'em up,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+kemokemo/kuronan-dash,continuous,False,False,runner game,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+keyj148/tow,continuous,False,False,real-time tank arcade,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+kobaltblu/kotor.js,continuous,False,False,"KotOR engine, real-time with pause",Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+kranx/vangers,continuous,False,False,racing/RPG,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+kvark/vange-rs,continuous,False,False,racing/RPG,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+lexica/lexica,discrete,False,False,timed word puzzle,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+lichess-org/lila,discrete,True,False,online chess server,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+littensy/slither,continuous,False,False,real-time Roblox game,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+longturn/freeciv21,discrete,False,False,turn-based 4X,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+lostartefacts/tr2x,continuous,False,False,Tomb Raider II action-adventure,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+lostartefacts/trx,continuous,False,False,Tomb Raider action-adventure,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+luanti-org/minetest_game,continuous,False,False,voxel sandbox,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+lucasnlm/antimine-android,discrete,False,False,minesweeper,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+luciensadi/awakemud,mixed,False,False,"MUD: text commands, real-time ticks",Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+lunartides/hearthstone.js,discrete,False,False,console card game,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+lxgr-linux/pokete,discrete,False,False,"terminal Pokemon-like, turn-based battles",Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+lykoss/lykos,discrete,True,False,werewolf IRC bot,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+magefree/mage,discrete,False,False,Magic card game engine,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+matinafzal/alien-invasion,continuous,False,False,arcade shooter,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+mattbruv/lentokonepeli,continuous,True,False,real-time airplane game (browser),Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+megaglest/megaglest-source,continuous,False,False,real-time strategy,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+micqo/galvanico,discrete,True,False,browser strategy (Ikariam-like),Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+minetest-lotr/lord-of-the-test,continuous,False,False,voxel sandbox,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+minicraftplus/minicraft-plus-revived,continuous,False,False,real-time 2D sandbox,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+movingblocks/destinationsol,continuous,False,False,arcade space shooter,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+movingblocks/terasology,continuous,False,False,voxel sandbox,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+mt-ctf/capturetheflag,continuous,False,False,real-time PvP on Luanti,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+multimachinebuilder/multimachinebuilder,continuous,False,False,real-time voxel factory,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+nickmcconnell/faangband,discrete,False,False,roguelike,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+nicolasbrailo/pianoli,continuous,False,False,toy piano (real-time input/sound),Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+nroutasuo/level13,discrete,True,True,text incremental,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+ocadotechnology/rapid-router,discrete,True,False,block-programming puzzle (web),Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+odamex/odamex,continuous,False,False,Doom multiplayer,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+omf2097/openomf,continuous,False,False,fighting game,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+open-ko/knightonline,continuous,False,False,real-time MMORPG,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+opendominion/opendominion,discrete,True,False,text browser strategy (ticks),Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+opendriver2/redriver2,continuous,False,False,driving game,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+openfrontio/openfrontio,continuous,True,False,online real-time strategy (browser),Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+openhv/openhv,continuous,False,False,RTS (OpenRA mod),Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+openra/openra,continuous,False,False,real-time strategy engine,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+opensage/opensage,continuous,False,False,RTS engine,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+openxray/xray-16,continuous,False,False,S.T.A.L.K.E.R. engine (FPS),Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+p0nk/cosmic,continuous,False,False,MapleStory server emulator,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+pioneerspacesim/pioneer,continuous,False,False,space flight simulation,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+pixelguys/cubyz,continuous,False,False,voxel sandbox,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+plbrault/youre-the-os,continuous,True,False,real-time management under time pressure,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+pokeclicker/pokeclicker,discrete,True,True,idle clicker in browser,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+quasoft/backgammonjs,discrete,True,False,backgammon,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+quaver/quaver,continuous,False,False,rhythm game,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+re-ss3d/ss3d,continuous,False,False,real-time 3D SS13,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+reactivedrop/reactivedrop_public_src,continuous,False,False,Alien Swarm shooter,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+retrowars/retrowars,continuous,False,False,real-time retro arcade,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+revolutionary-games/thrive,continuous,False,False,real-time evolution simulation,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+rmc-14/rmc-14,continuous,False,False,real-time SS14-based game,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+robosturm/commander_wars,discrete,False,False,turn-based strategy (Advance Wars),Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+sepehr-rs/sudoku,discrete,False,False,sudoku,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+sfttech/openage,continuous,False,False,RTS engine (Age of Empires),Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+snack-game/front,discrete,True,False,number puzzle in browser,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+space-syndicate/space-station-14,continuous,False,False,SS14 fork,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+space-wizards/space-station-14,continuous,False,False,real-time multiplayer SS13 remake,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+synthein/synthein,continuous,False,False,real-time space shooter,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+taulazer/tau,continuous,False,False,osu! rhythm ruleset,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+teeworlds/teeworlds,continuous,False,False,multiplayer shooter,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+the-powder-toy/the-powder-toy,continuous,False,False,physics sandbox,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+theassemblyarmada/thyme,continuous,False,False,RTS (C&C Generals),Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+therealpadster/name-that-tune,discrete,False,False,song guessing quiz,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+thetawavegame/thetawave,continuous,False,False,physics space shooter,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+thextech/thextech,continuous,False,False,platformer engine,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+thomas-mauran/chess-tui,discrete,False,False,terminal chess,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+thrillberg/imperial,discrete,True,False,board game website,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+tiny-devs/tiny-dungeon-online,continuous,True,False,online real-time RPG,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+tmewett/broguece,discrete,False,False,roguelike,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+tobymao/18xx,discrete,True,False,board game website (18xx),Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+toddetv/zlig,discrete,True,True,idle game in browser,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+tonihele/openkeeper,continuous,False,False,real-time strategy (Dungeon Keeper II),Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+triplea-game/triplea,discrete,False,False,turn-based strategy/board engine,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+trymnilsen/kingdomarchitect,continuous,True,False,real-time city builder (browser),Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+ultimafia/ultimafia,discrete,True,False,online chat mafia (social deduction),Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+ultrastar-deluxe/play,continuous,False,False,singing/rhythm game,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+ultrastar-deluxe/usdx,continuous,False,False,singing/rhythm game,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+vcmi/vcmi,discrete,False,False,"HoMM III engine, turn-based strategy",Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+viciousfish/buzzwords,discrete,True,False,turn-based word territory game,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+vocaluxe/vocaluxe,continuous,False,False,singing/rhythm game,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+wandererxii/lishogi,discrete,True,False,online shogi server,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+warzone2100/warzone2100,continuous,False,False,real-time strategy,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+whitecloud0123/cdda-breeze,discrete,False,False,roguelike (Cataclysm DDA),Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+xeeynamo/sotn-decomp,continuous,False,False,action platformer decompilation,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+xescugc/maze-wars,continuous,False,False,real-time tower defense,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+ymichael/everdell,discrete,True,False,board game website,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated
+zerok-rts/zero-k,continuous,False,False,real-time strategy,Claude,claude-opus-5-5,2026-11-14,provisional_not_human_validated

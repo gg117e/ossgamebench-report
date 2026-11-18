@@ -1,0 +1,34 @@
+{
+  "seed": 20261113,
+  "n_per_stratum": 25,
+  "api_failures": 1,
+  "strata": {
+    "flipped": {
+      "checked": 25,
+      "same_paths": 22,
+      "jaccard_median": 1.0,
+      "jaccard_min": 0.8,
+      "merge_commit_sha_matches": 24,
+      "test_flag_agrees": 24,
+      "gh_has_test": 1
+    },
+    "gh_merge": {
+      "checked": 25,
+      "same_paths": 25,
+      "jaccard_median": 1.0,
+      "jaccard_min": 1.0,
+      "merge_commit_sha_matches": 22,
+      "test_flag_agrees": 25,
+      "gh_has_test": 1
+    },
+    "squash_like": {
+      "checked": 24,
+      "same_paths": 23,
+      "jaccard_median": 1.0,
+      "jaccard_min": 0.5,
+      "merge_commit_sha_matches": 24,
+      "test_flag_agrees": 24,
+      "gh_has_test": 2
+    }
+  }
+}
